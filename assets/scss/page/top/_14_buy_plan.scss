@@ -1,0 +1,13 @@
+//use c-planGen from gen
+
+.l-topBuyPlan {
+  //height: 88.4rem;
+  flex: 0 0 88.4rem;
+  padding-top: 8rem;
+  // background: #00f;
+  @include pc {
+    // height: 83.3rem;
+    flex: 0 0 83.3rem;
+    padding-top: 18rem;
+  }
+}

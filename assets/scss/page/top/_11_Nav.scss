@@ -1,0 +1,68 @@
+.c-topNav {
+  width: 97.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-top: 5rem;
+  @include sp {
+    display: none;
+  }
+}
+
+.c-topNavList {
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-between;
+  height: auto;
+  &__item {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    &:not(:first-child) {
+      padding-left: 0.8rem;
+      background: radial-gradient(circle closest-side, $gr_d9 99.99%, transparent 100%) no-repeat left center/.8rem
+        0.8rem;
+    }
+  }
+  &__link {
+    transition: 0.2s all;
+    padding: 0.5rem 0;
+    background: linear-gradient(to right, $color_2, $color_2) no-repeat left bottom/ 0 0.5rem;
+    &:hover {
+      background: linear-gradient(to right, $color_2, $color_2) no-repeat left bottom/ 100% 0.5rem;
+    }
+  }
+}
+
+.c-topNavConv {
+  flex: 0 0 21rem;
+  height: 5.4rem;
+  border-radius: 9999px;
+  background: $black;
+  @include a_tag($white, $white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &:after {
+    transition: 0.2s all;
+    content: "";
+    display: block;
+    width: 1.4rem;
+    height: 1.1rem;
+    position: absolute;
+    right: 1.2rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background: url(../img/arrow-whitesm.png) no-repeat center center/contain;
+  }
+  &:hover {
+    &:after {
+      transform: translateX(0.8rem);
+    }
+  }
+}

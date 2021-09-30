@@ -1,0 +1,129 @@
+/* ======================================================================
+ utility
+====================================================================== */
+
+/* =================================
+ layout
+================================= */
+
+// pc・sp 出し分け（media-queryはサイトの仕様に合わせて変更すること）
+@include tbpc {
+  .u-pc {
+    display: block;
+    &_i {
+      display: inline;
+    }
+    &_ib {
+      display: inline-block;
+    }
+    &_f {
+      display: flex;
+    }
+    &_if {
+      display: inline-flex;
+    }
+  }
+  .u-sp {
+    display: none;
+    &_i,
+    &_ib,
+    &_f,
+    &_if {
+      display: none;
+    }
+  }
+}
+
+@include sp {
+  .u-pc {
+    display: none;
+    &_i,
+    &_ib,
+    &_f,
+    &_if {
+      display: none;
+    }
+  }
+  .u-sp {
+    display: block;
+    &_i {
+      display: inline;
+    }
+    &_ib {
+      display: inline-block;
+    }
+    &_f {
+      display: flex;
+    }
+    &_if {
+      display: inline-flex;
+    }
+  }
+}
+
+/* =================================
+ text weight
+================================= */
+.u-lighter {
+  font-weight: lighter;
+}
+
+.u-bolder {
+  font-weight: bolder;
+}
+.u-middle {
+  font-weight: 500;
+  text-shadow: rgba(0, 0, 0, 0.6) 0 0 0.15rem;
+}
+.u-bold {
+  font-weight: 700;
+}
+
+.u-underline {
+  text-decoration: underline;
+}
+
+/* =================================
+ text align
+================================= */
+.u-ta_c {
+  text-align: center;
+}
+
+.u-ta_cl {
+  text-align: center;
+  @include pc {
+    text-align: left;
+  }
+}
+
+.u-ta_lc {
+  @include pc {
+    text-align: center;
+  }
+}
+.u-ta_lr {
+  @include pc {
+    text-align: right;
+  }
+}
+
+.u-ta_r {
+  text-align: right;
+}
+
+/* =================================
+ paragraph margin
+================================= */
+.u-parag {
+  & + .u-parag {
+    margin: 1.5rem 0 0;
+  }
+}
+
+/* =================================
+ hoge
+================================= */
+// .u_hoge {
+//   hoge
+// }

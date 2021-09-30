@@ -1,0 +1,108 @@
+%l-header {
+  @include pc {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 990;
+  }
+  background: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0 0 2rem;
+  @include pc {
+    padding: 0.8rem 3rem;
+  }
+  width: 100%;
+}
+
+.l-header {
+  @extend %l-header;
+  &--top {
+    @extend %l-header;
+    @include pc {
+      transform: translateY(-100%);
+      transition: 0.2s all;
+      &._active {
+        transform: none;
+      }
+    }
+  }
+  &__logo {
+    flex: 0 0 12rem;
+    img {
+      width: 100%;
+    }
+  }
+  &__nav {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    @include sp {
+      display: none;
+    }
+  }
+  &__list {
+    flex: 0 0 auto;
+  }
+  &__conv {
+    margin-left: 0.6rem;
+  }
+}
+
+.c-headerList {
+  display: flex;
+  flex: 0 0 auto;
+  &__item {
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: center;
+    padding: 0 3.9rem;
+    &:not(:first-child) {
+      padding-left: 4.7rem;
+      background: radial-gradient(circle closest-side, $gr_d9 99.99%, transparent 100%) no-repeat left center/.8rem
+        0.8rem;
+    }
+  }
+  &__link {
+    transition: 0.2s all;
+    padding: 0.5rem 0;
+    @include a_tag($black, $black);
+    background: linear-gradient(to right, $color_2, $color_2) no-repeat left bottom/ 0 0.5rem;
+    &:hover {
+      background: linear-gradient(to right, $color_2, $color_2) no-repeat left bottom/ 100% 0.5rem;
+    }
+  }
+}
+
+.c-headerConv {
+  flex: 0 0 19.5rem;
+  width: 19.5rem;
+  height: 4.4rem;
+  border-radius: 9999px;
+  background: $black;
+  @include a_tag($white, $white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &:after {
+    content: "";
+    display: block;
+    width: 1.4rem;
+    height: 1.1rem;
+    position: absolute;
+    right: 1.2rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background: url(../img/arrow-whitesm.png) no-repeat center center/contain;
+    transition: 0.2s all;
+  }
+
+  &:hover {
+    &:after {
+      transform: translateX(0.8rem);
+    }
+  }
+}

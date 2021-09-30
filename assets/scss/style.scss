@@ -1,0 +1,47 @@
+/* ======================================================================
+ common style index
+・reset
+・variable
+・mixin
+・base
+・utility
+・component
+・layout
+====================================================================== */
+
+// リセット
+@import "foundation/reset";
+
+// 変数定義
+@import "foundation/variable";
+
+// ミックスイン
+@import "foundation/mixin";
+
+// ベース
+@import "foundation/base";
+
+//外部ライブラリ
+@import "lib/**";
+
+// 汎用クラス
+// @import "extend/**";
+
+// 汎用クラス
+@import "utility/**";
+
+// コンポーネント
+@import "component/**";
+
+// レイアウト
+@import "layout/**";
+
+// レイアウト
+// @import "project/**";
+
+// レイアウト
+@import "page/**";
+
+.l-post_detail {
+  @import "block/**";
+}

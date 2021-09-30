@@ -1,0 +1,138 @@
+.u-h1_1 {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  @include pc {
+    font-size: 5rem;
+    line-height: 7.6rem;
+  }
+}
+
+.u-txt_s {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  @include pc {
+    line-height: 2.2rem;
+  }
+}
+.u-txt_s2 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  @include pc {
+    line-height: 1.4rem;
+    line-height: 1.7rem;
+  }
+}
+.u-txt_s3 {
+  font-size: 1.1rem;
+}
+
+.u-txt_m {
+  font-size: 1.4rem;
+  line-height: 2.7rem;
+  @include pc {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+.u-txt_m2 {
+  font-size: 1.4rem;
+  line-height: 2.7rem;
+}
+
+.u-txt_m3 {
+  font-size: 1.3em;
+  line-height: 2.7rem;
+  @include pc {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+.u-txt_m4 {
+  font-size: 1.6rem;
+  @include pc {
+    font-size: 1.5rem;
+  }
+}
+.u-txt_m5 {
+  font-size: 1.8rem;
+  @include pc {
+    font-size: 2.2rem;
+  }
+}
+
+.u-txt_m6 {
+  font-size: 1.8rem;
+}
+.u-txt_m7 {
+  font-size: 1.4rem;
+  @include pc {
+    font-size: 1.3rem;
+  }
+}
+.u-txt_m8 {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+}
+.u-txt_m9 {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.u-txt_l {
+  font-size: 2.4rem;
+  //line-height: 5.5rem;
+  @include pc {
+    font-size: 2.8rem;
+    //line-height: 6.9rem;
+  }
+}
+
+.u-txt_l2 {
+  font-size: 2rem;
+  //line-height: 5.5rem;
+  @include pc {
+    font-size: 2.4rem;
+    //line-height: 6.9rem;
+  }
+}
+
+.u-txt_l3 {
+  font-size: 2rem;
+}
+.u-txt_l4 {
+  font-size: 2rem;
+  @include pc {
+    font-size: 1.8rem;
+  }
+}
+
+.u-txt_l5 {
+  font-size: 3.4rem;
+}
+
+.u-txt_l6 {
+  font-size: 2rem;
+  //line-height: 5.5rem;
+  @include pc {
+    font-size: 2.28rem;
+    //line-height: 6.9rem;
+  }
+}
+
+.u-txt_xl {
+  font-size: 2.8rem;
+  //line-height: 5.5rem;
+  @include pc {
+    font-size: 4.4rem;
+    //line-height: 6.9rem;
+  }
+}
+
+.u-txt_xl2 {
+  font-size: 8rem;
+  //line-height: 5.5rem;
+  line-height: 1;
+  @include pc {
+    font-size: 7rem;
+    //line-height: 6.9rem;
+  }
+}

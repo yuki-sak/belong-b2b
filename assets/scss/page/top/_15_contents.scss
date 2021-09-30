@@ -1,0 +1,119 @@
+.l-topContents {
+  flex: 1 1 auto;
+
+  padding-top: 4.4rem;
+  @include pc {
+    padding-top: 10rem;
+  }
+  &__ttl {
+  }
+  &__list {
+    margin-top: 5rem;
+    height: 30rem;
+    @include pc {
+      margin-top: 7rem;
+      height: 32rem;
+    }
+  }
+  &__btn {
+    margin: 7rem auto 0;
+  }
+}
+
+.c-topContentsTtl {
+  &__icon {
+    display: block;
+    width: 7.2rem;
+    margin: 0 auto;
+  }
+  &__ttl {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.1rem;
+    margin-top: 2.3rem;
+    @include pc {
+      margin-top: 2.5rem;
+    }
+  }
+  &__logo {
+    width: 11.4rem;
+  }
+  &__txt {
+    padding-bottom: 0.6rem;
+  }
+}
+.c-topContentsImg {
+  &__item {
+  }
+}
+.c-topContentsList {
+  @include sp {
+    margin-right: calc(50% - 50vw);
+  }
+  @include pc {
+    width: 96rem;
+    margin: 0 auto;
+    display: flex;
+  }
+  &__item {
+    &:not(:first-child) {
+      margin-left: 1.6rem;
+      @include pc {
+        margin-left: 4.5rem;
+      }
+    }
+  }
+}
+
+.c-cardTopContents {
+  display: block;
+  @include sp {
+    width: 28rem;
+  }
+  @include pc {
+    transition: 0.2s all;
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+
+  @include a_tag($black, $black);
+
+  &__img {
+    width: 100%;
+    display: block;
+  }
+  &__ttl {
+    margin-top: 1.5rem;
+    @include pc {
+      margin-top: 2rem;
+    }
+  }
+  &__linkw {
+    margin-top: 3rem;
+    @include pc {
+      margin-top: 2rem;
+    }
+  }
+  &__link {
+    display: inline-block;
+    border-bottom: 0.1rem solid $black;
+    padding: 0 1rem 0.2rem 0;
+    position: relative;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      right: 0;
+      width: 0.7rem;
+      height: 0.7rem;
+      border-top: 0.1rem solid $black;
+      border-right: 0.1rem solid $black;
+      transform: rotate(45deg);
+    }
+  }
+}

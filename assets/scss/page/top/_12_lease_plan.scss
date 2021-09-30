@@ -1,0 +1,203 @@
+.l-topLeasePlan {
+  //height: 225.6rem;
+  flex: 0 0 225.6rem;
+  // background: #f00;
+  padding-top: 4.2rem;
+  @include pc {
+    // height: 171.2rem;
+    flex: 0 0 171.2rem;
+    padding-top: 17rem;
+  }
+  &__ttl {
+  }
+  &__read {
+  }
+  &__cont {
+    margin-top: 5.2rem;
+    @include pc {
+      margin-top: 10.9rem;
+    }
+  }
+  &__btn {
+    margin-top: 4.8rem;
+    @include pc {
+      margin-top: 9.4rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+.c-topLeasePlanRead {
+  @include pc {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 3rem 0 2rem;
+  }
+  &__doc {
+    @include pc {
+      flex: 0 0 41rem;
+    }
+  }
+  &__docRead {
+    margin-top: 4.3rem;
+    @include pc {
+      margin-top: 6.2rem;
+    }
+  }
+  &__img {
+    margin-top: 3.5rem;
+    display: block;
+    max-width: 100%;
+    @include pc {
+      margin-top: 0;
+      flex: 0 0 50.8rem;
+      width: 50.8rem;
+    }
+  }
+}
+
+.p-rental {
+  &__ttl {
+  }
+  &__list {
+    margin-top: 3.7rem;
+    @include pc {
+      margin-top: 5.5rem;
+    }
+    li {
+      &:not(:first-child) {
+        margin-top: 3.5rem;
+        @include pc {
+          margin-top: 3.3rem;
+        }
+      }
+    }
+  }
+  &__more {
+    margin-top: 5.2rem;
+    @include pc {
+      margin-top: 6.4rem;
+    }
+  }
+}
+%c-rentalItem {
+  &__img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.c-rentalTtl {
+  background: $white;
+  border-radius: 9999px;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-rentalItem {
+  display: flex;
+  gap: 1.75rem;
+  @include pc {
+    gap: 4.6rem;
+  }
+  &__imgw {
+    flex: 0 0 15rem;
+    @include pc {
+      flex: 0 0 17.4rem;
+    }
+
+    background: #fff;
+    border-radius: 9999px;
+    position: relative;
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%;
+    }
+  }
+  &__img {
+    width: 5.6rem;
+    @extend %c-rentalItem__img;
+    &--tablet {
+      width: 7.5rem;
+      @extend %c-rentalItem__img;
+    }
+  }
+  &__doc {
+  }
+  &__docMaker {
+  }
+  &__docName {
+    margin-top: 0.6rem;
+  }
+  &__docTxt {
+    margin-top: 1.1rem;
+  }
+  &__docLink {
+    margin-top: 0.8rem;
+  }
+  &__docLinkTxt {
+    display: inline-block;
+    transition: 0.2s all;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.4;
+    }
+
+    border-bottom: 0.1rem solid $black;
+    padding-bottom: 0.2rem;
+    @include a_tag($black, $black);
+    &:after {
+      content: "";
+      display: inline-block;
+      width: 0.7rem;
+      height: 0.7rem;
+      border-top: 0.1rem solid $black;
+      border-right: 0.1rem solid $black;
+      transform: translateY(-0.1rem) rotate(45deg);
+    }
+  }
+}
+
+.c-rentalMore {
+  width: 100%;
+  @include pc {
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid $gr_70;
+  border-radius: 0.5rem;
+  position: relative;
+  @include a_tag($black, $black);
+  transition: 0.2s all;
+  background: rgba($white, 0);
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 4rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-top: 0.1rem solid $black;
+    border-right: 0.1rem solid $black;
+    transform: rotate(45deg);
+  }
+  &:hover {
+    background: rgba($white, 1);
+  }
+}

@@ -1,0 +1,21 @@
+.l-container {
+  &--top {
+    @include pc {
+      padding-top: 4rem;
+    }
+  }
+}
+
+.l-cs_pc {
+  @include pc {
+    width: 110rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.l-cs_sp {
+  @include sp {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

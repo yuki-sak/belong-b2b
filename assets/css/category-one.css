@@ -1,0 +1,62 @@
+.body-bg{
+    background: #E7F5FA !important;
+}
+.blueimg-bg{
+    background: #C5E7F2;
+}
+.header-pc{
+    display: block !important;
+    background: #FFFFFF;
+}
+body {
+    background: #E7F5FA !important;
+}
+.second-content-column .btn-device-link{
+    background: unset;
+}
+.card-half-radius p.card-title{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-half-radius{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.card-half-radius p.card-desc{
+    position: relative;
+}
+
+.Text-Span {
+    position: relative;
+    z-index: 1;
+  }
+  .Text-Span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    width: 0%;
+    height: 4px;
+    background: #fff500;
+    z-index: -1;
+    transition: all 3s;
+    top: 16px;
+  }
+  .Text-Span.isActive:after {
+    width: 100%;
+  }
+@media only screen and (max-width: 480px) {
+    .belongone_sell_main{
+        height: auto !important;
+    }
+    .header-pc{
+        display: none !important;
+    }
+    .card-half-radius.third-card .card-img img{
+        height: 150px;
+    }
+    .card-half-radius.third-card p.card-title{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,127 @@
+%c-pager_num {
+  /* ==============================
+  / layout
+  / ============================== */
+  &__arr {
+    display: block;
+    width: 2.5rem;
+    height: 4rem;
+    @include pc {
+      width: 4rem;
+      height: 6rem;
+    }
+    transform: 0.3s all;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  &__link {
+    width: 4rem;
+    height: 4rem;
+    &:not(:last-child) {
+      margin-right: 0.3rem;
+    }
+    @include pc {
+      width: 6rem;
+      height: 6rem;
+      &:not(:last-child) {
+        margin-right: 0.5rem;
+      }
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $font_3;
+  }
+
+  /* ==============================
+  / configuration
+  / ============================== */
+  &__arrimg {
+    //bg image (val)
+    background: url(../img/ico/pgr_arr.svg) no-repeat center center / auto 2rem;
+  }
+  &__arrimg-d {
+    //bg image (val)
+    background: url(../img/ico/pgr_arrd.svg) no-repeat center center / auto 2rem;
+  }
+  &__prev {
+    //margin (val)
+    margin-right: 0.3rem;
+    @include pc {
+      margin-right: 0.5rem;
+    }
+    //[def]spin
+    transform: rotate(180deg);
+  }
+  &__next {
+    //margin (val)
+    margin-left: 0.3rem;
+    @include pc {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+.c-pager_num {
+  & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__inner {
+    display: flex;
+  }
+
+  // &__side {
+
+  // }
+
+  &__arr {
+    &--prev {
+      &--d {
+        @extend %c-pager_num__arr;
+        @extend %c-pager_num__arrimg-d;
+        @extend %c-pager_num__prev;
+      }
+      & {
+        @extend %c-pager_num__arr;
+        @extend %c-pager_num__arrimg;
+        @extend %c-pager_num__prev;
+      }
+    }
+    &--next {
+      & {
+        @extend %c-pager_num__arr;
+        @extend %c-pager_num__arrimg;
+        @extend %c-pager_num__next;
+      }
+      &--d {
+        @extend %c-pager_num__arr;
+        @extend %c-pager_num__arrimg-d;
+        @extend %c-pager_num__next;
+      }
+    }
+  }
+
+  // &__page {
+
+  // }
+  &__link {
+    & {
+      @extend %c-pager_num__link;
+      transition: 0.3s all;
+      border: 1px solid $color_2;
+      color: $gray_a0;
+      &:hover {
+        background: $color_2;
+        color: $color_1;
+      }
+    }
+    &--now {
+      @extend %c-pager_num__link;
+      background: $color_3;
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.l-topMain {
+  display: flex;
+  flex-direction: column;
+  height: 470.7rem;
+  background: url(../img/top_bg_sp.png) no-repeat center top/100% auto;
+  margin-top: 4.5rem;
+  @include pc {
+    height: 427.2rem;
+    background-image: url(../img/top_bg_pc2.png);
+    background-size: 100% 100%;
+    margin-top: 7rem;
+  }
+}
+
+.c-topTtl {
+  &__img {
+    display: block;
+    margin: 0 auto;
+    width: 22rem;
+    @include pc {
+      width: 41rem;
+    }
+    &--wide {
+      display: block;
+      margin: 0 auto;
+      width: 30rem;
+      @include pc {
+        width: 41rem;
+      }
+    }
+  }
+  &__txt {
+    color: $color_2;
+    margin: 0.6rem 0 0;
+  }
+}
+
+.c-planGen {
+  @include pc {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 96rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &--rev {
+    @include pc {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 96rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  &--revSp {
+    display: flex;
+    @include sp {
+      flex-direction: column-reverse;
+    }
+    @include pc {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      width: 96rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  &__doc {
+    @include pc {
+      flex: 0 0 41.5rem;
+    }
+  }
+  &__docRead {
+    margin-top: 4.3rem;
+    @include pc {
+      margin-top: 6.2rem;
+    }
+  }
+  &__btn {
+    &--sp {
+      @include pc {
+        display: none;
+      }
+      margin-top: 6.7rem;
+    }
+    &--pc {
+      @include sp {
+        display: none;
+      }
+      margin-top: 4.8rem;
+    }
+  }
+  &__img {
+    margin-top: 3.5rem;
+    display: block;
+    max-width: 100%;
+    @include pc {
+      margin-top: 0;
+      flex: 0 0 41rem;
+      width: 41rem;
+    }
+  }
+}

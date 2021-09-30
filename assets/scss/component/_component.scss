@@ -1,0 +1,105 @@
+.c-txtGen_1 {
+  &__ttlw {
+  }
+  &__ttl {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.8rem;
+    &--over {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 0.8rem;
+      @include sp {
+        width: 104%;
+        transform: translateX(-2%);
+      }
+    }
+  }
+  &__ttlLine {
+    position: absolute;
+    height: 0.2rem;
+    background: $black;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  &__txt {
+    margin-top: 2.5rem;
+  }
+}
+%c-btn_1 {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include a_tag($white, $white);
+  border-radius: 9999px;
+  padding-bottom: 0.2rem;
+  position: relative;
+  @include pc {
+    width: 40rem;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2rem;
+    margin: auto 0;
+    width: 1.8rem;
+    height: 1.4rem;
+    transition: 0.2s all;
+  }
+  &:hover {
+    &:after {
+      transform: translateX(1rem);
+    }
+  }
+}
+
+.c-btn_1 {
+  &--bg {
+    background: $color_2;
+    @extend %c-btn_1;
+    &:after {
+      background: url(../img/arrow-white.png) no-repeat center center/contain;
+    }
+  }
+  &--border {
+    background: $white;
+    border: 0.2rem solid $color_2;
+    @include a_tag($color_2, $color_2);
+    @extend %c-btn_1;
+    &:after {
+      background: url(../img/arrow-blue.png) no-repeat center center/contain;
+    }
+  }
+}
+
+.p-leasePlan {
+  @include pc {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__cont {
+    &:not(:first-child) {
+      @include sp {
+        margin-top: 5.7rem;
+      }
+    }
+    @include pc {
+      flex: 0 0 50%;
+    }
+    @include pc {
+      &:first-child {
+        padding-right: 9rem;
+      }
+      &:last-child {
+        padding-left: 9rem;
+        background: linear-gradient($gr_d9, $gr_d9) no-repeat left bottom/ 1px 69rem;
+      }
+    }
+  }
+}

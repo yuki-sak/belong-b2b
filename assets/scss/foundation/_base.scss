@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "Yu Gothic Medium";
+  src: url(../fonts/Yu-Gothic-Medium.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DIN";
+  src: url(../fonts/DIN-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DIN";
+  src: url(../fonts/DIN-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DIN";
+  src: url(../fonts/DIN-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DIN";
+  src: url(../fonts/DIN.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+/* ======================================================================
+ base
+====================================================================== */
+html {
+  font-size: (10/375) * 100vw;
+  @include mq(768, 1179) {
+    font-size: (10/1180) * 100vw;
+  }
+  @include mq_min(1180) {
+    font-size: 62.5%; // 1em = 10px
+  }
+}
+
+//content 960px;
+
+body {
+  color: $color_1;
+  font-family: DIN, "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ",
+    Meiryo, sans-serif;
+
+  //font-family: $font_1;
+  font-size: 1.3rem;
+  line-height: 2.7rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  //text-shadow: rgba(0, 0, 0, 0.1) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 0 1px;
+  word-wrap: break-word;
+  //word-break:break-all;
+  word-break: normal;
+
+  //font-feature-settings: "palt";
+  @include tbpc {
+    width: 100%;
+    //min-width: $content_width;
+  }
+  * {
+    word-wrap: break-word;
+    word-break: normal;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  //height: 100%;
+}
+
+* {
+  backface-visibility: hidden;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* h1 - h6 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+
+/* a */
+// 各ページで色を変更するときは@include a_tagを使用して上書きしてください。
+a {
+  // text-decoration: none;
+  // &:link {
+  //   color: $color_1;
+  //   cursor: pointer;
+  // }
+  // &:visited {
+  //   color: $color_1;
+  // }
+  // &:hover {
+  //   color: $color_1;
+  // }
+  // &:active {
+  //   color: $color_1;
+  // }
+}
+
+// モバイル時 電話番号カラー
+a[href^="tel"] {
+  color: $color_1;
+}
+
+/* Text Highlight */
+// ::selection {
+//   background-color: $color_1;
+// }
+
+/* button */
+button {
+  display: block;
+}
+
+textarea {
+  resize: vertical;
+}
+
+select {
+  &:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 $color_1;
+  }
+}
+
+/* placeholder */
+// 各ページで色を変更するときは@include placeholderを使用して上書きしてください。
+input,
+textarea {
+  @include placeholder($color_1);
+  &:focus {
+    @include placeholder($color_1);
+  }
+}
+
+// ドラッグ禁止
+img {
+  pointer-events: none;
+  user-select: none;
+}

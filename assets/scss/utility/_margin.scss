@@ -1,0 +1,27 @@
+@for $i from 0 through 24 {
+  .mt-#{$i * 5} {
+  margin-top: $i * 5rem;
+  }
+  .mb-#{$i * 5} {
+  margin-bottom: $i * 5rem;
+  }
+
+  
+  @include pc {   
+    .mtpc-#{$i * 5}{
+      margin-top: #{$i * 5}px;
+    }
+    .mbpc-#{$i * 5}{
+      margin-bottom: #{$i * 5}px;
+    }
+  }
+  
+  @include sptb {
+    .mtsp-#{$i * 5}{
+      margin-top: #{$i * 5}px;
+    }
+    .mbsp-#{$i * 5}{ 
+        margin-bottom: #{$i * 5}px;
+    }
+  }
+}

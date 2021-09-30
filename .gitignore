@@ -1,0 +1,20 @@
+# OSX
+.DS_Store
+__MACOSX
+thumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# テンプレート使用に伴うファイル
+node_modules/
+_img/
+
+# 管理対象にする
+!.gitignore

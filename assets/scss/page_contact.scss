@@ -1,0 +1,339 @@
+@import "foundation/variable";
+@import "foundation/reset";
+@import "foundation/mixin";
+
+/* ======================================================================
+ page-contact
+====================================================================== */
+
+/**
+ * error message
+ */
+
+.mw_wp_form .error {
+  //font-size: 93%;
+  color: #b70000;
+  display: block;
+}
+
+/**
+ * error message of akismet
+ */
+
+.mw_wp_form .akismet_error {
+  display: block;
+}
+
+/**
+ * vertical style of radio and checkbox
+ */
+
+.mw_wp_form .vertical-item {
+  display: block;
+}
+
+.mw_wp_form .vertical-item + .vertical-item {
+  margin-top: 5px;
+}
+
+/**
+ * horizontal style of radio and checkbox
+ */
+
+.mw_wp_form .horizontal-item + .horizontal-item {
+  margin-left: 10px;
+}
+
+/**
+ * radio and checkbox
+ */
+
+.mwform-checkbox-field label,
+.mwform-radio-field label {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.mwform-checkbox-field input,
+.mwform-radio-field input {
+  margin-right: 5px;
+}
+
+/**
+ * datepicker
+ */
+
+.mw_wp_form .ui-datepicker .ui-datepicker-title select.ui-datepicker-month,
+.mw_wp_form .ui-datepicker .ui-datepicker-title select.ui-datepicker-year {
+  width: 40%;
+  margin: 0 5px;
+}
+
+/**
+ * deprecated message
+ */
+
+.mw-wp-form-deprecated-message {
+  background: #f5a9a9;
+  border: #b40404 solid 2px;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 1.6;
+  margin: 0 0 5px;
+  padding: 5px;
+}
+
+/**
+ * file
+ */
+
+.mw_wp_form input[type="file"] {
+  display: inline-block;
+}
+
+/**
+ * file delete button
+ */
+
+.mwform-file-delete {
+  cursor: pointer;
+  visibility: hidden;
+}
+
+/**
+ * tel and zip
+ */
+
+.mwform-tel-field input[type="text"],
+.mwform-zip-field input[type="text"] {
+  display: inline-block;
+  width: auto;
+}
+
+.mw_wp_form .error {
+  //display: inline-block !important;
+}
+
+/* ======================== */
+
+input,
+textarea {
+  @include placeholder(#9b9b9b);
+  &:focus {
+    @include placeholder(#9b9b9b);
+  }
+}
+
+.mw_wp_form {
+  @include sp {
+    padding: 0 4%;
+  }
+  @include pc {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  form {
+    padding: 30px 25px 45px;
+    background: $gr_f8;
+  }
+}
+
+.c_cont_item {
+  & {
+    &:not(:first-child) {
+      margin-top: 25px;
+    }
+    @include pc {
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+  &__lbl {
+    display: flex;
+    align-items: center;
+    @include pc {
+      flex: 0 0 196px;
+    }
+  }
+  &__lbl-req {
+    background: $color_2;
+    color: $white;
+    font-size: 11px;
+    padding: 4px 7px;
+    display: inline-block;
+    margin-right: 11px;
+    flex-shrink: 0;
+  }
+  &__lbl-txt {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  &__wrap {
+    width: 100%;
+  }
+  &__input-namewrap {
+    width: calc((100% - 10px) / 2);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  padding: 10px 12px;
+  border: 1px solid $gr_88;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: $white;
+}
+
+input[type="text"] {
+  &.input_name {
+    display: block;
+    width: calc((100% - 10px) / 2);
+  }
+}
+
+.btn-fwd {
+  button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.c_cont_btn_fwd {
+  width: 100%;
+  max-width: 296px;
+  height: 52px;
+  font-size: 18px;
+  font-weight: bold;
+  @include fc;
+  border-radius: 9999px;
+  background: $color_2;
+  color: white;
+  margin: 35px 0 0;
+  transition: 0.2s all ease;
+  &:hover {
+    background: $white;
+    color: $color_2;
+    border: 1px solid $color_2;
+  }
+}
+
+.err-msg {
+  font-size: 14px;
+  label {
+    &.error {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .err-ico {
+    @include fc;
+    background: #b70000;
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    border-radius: 9999px;
+    color: $white;
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
+
+.comp_content {
+  margin: 0 auto;
+  max-width: 720px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comp_title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  @include pc {
+    font-size: 28px;
+  }
+}
+
+.comp_txt {
+  margin: 40px 0 0;
+}
+
+.comp_btn {
+  margin: 20px 0 0;
+  display: flex;
+  justify-content: center;
+  max-width: 296px;
+  width: 100%;
+}
+
+.cont_container {
+  padding: 55px 15px;
+}
+
+.cont_title {
+  & {
+    position: relative;
+    text-align: center;
+  }
+  &__ja {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 0 4px;
+    @include pc {
+      font-size: 28px;
+      bottom: 28px;
+    }
+  }
+  &__jp-txt {
+    display: block;
+  }
+  &__jp-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(#000, #000) no-repeat center bottom / 132px 1px;
+  }
+  &__en {
+    font-size: 50px;
+    color: #e7f5fa;
+    font-weight: 500;
+    line-height: 1;
+    font-family: DIN, sans-serif;
+    @include pc {
+      font-size: 90px;
+    }
+  }
+}
+
+.cont_txt {
+  font-size: 14px;
+  margin: 33px 0 0;
+  text-align: center;
+}
+
+.cont_form-wrap {
+  margin: 47px 0 0;
+  @include pc {
+    margin: 53px 0 0;
+  }
+}

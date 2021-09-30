@@ -1,0 +1,551 @@
+@font-face {
+  font-family: "Yu Gothic Medium";
+  src: url("../fonts/Yu Gothic Medium.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DIN";
+  src: url("../fonts/DIN.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+/*
+   .container {
+    width: 1320px!important;
+}     */
+
+/* -----scrollbar--------- */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4caccf;
+  border-radius: 10px;
+}
+
+/* --------------------- */
+
+.flex-box {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  min-height: 60px;
+  background: #ffffff;
+  z-index: 1000;
+}
+
+header .navbar .main-logo,
+.main-logo {
+  max-height: 40px;
+}
+
+header .navbar-nav .nav-link {
+  color: #000000 !important;
+  font-size: 14px;
+  font-weight: 900;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+header .navbar-nav .nav-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+header .gray-dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  margin-left: 20px;
+}
+
+header .nav-item {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: baseline;
+  margin: 0 20px;
+}
+
+header .nav-item:not(:first-child) {
+  margin-left: 20px;
+}
+
+.btn-black {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* .btn-black:hover {
+  border: 1px solid;
+  background: #ffffff;
+  color: #000000;
+} */
+
+header .btn-inquiry-holder {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+header .btn-inquiry-holder > .btn-inquiry {
+  border-radius: 35px;
+  width: 195px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-top: -9px;
+  border: none;
+  font-size: 14px;
+}
+header .btn-inquiry-holder > .btn-inquiry:hover{
+  /* border: 1px solid #000000 !important; */
+  color: #fff;
+}
+header .btn-inquiry-holder > .btn-inquiry > .fa-arrow-right {
+  margin-left: 10px;
+}
+
+header .navbar-nav .nav-link:hover {
+  /* border-bottom: 2px solid #4CACCF; */
+  border-width: fit-content;
+}
+
+/* header .navbar-nav .nav-link.active {
+  border-bottom: 2px solid #4caccf;
+} */
+footer .container{
+  text-align: center;
+  padding: 20px;
+}
+.sp-header-menu-holder {
+  margin-left: auto;
+}
+
+.mobile-menu-content {
+  background: #ffffff;
+}
+
+.mobile-menu-content .offcanvas-header {
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.mobile-menu-content > .flex-box h1 {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.header-sp {
+  display: none;
+}
+
+.header-sp > div > .flex-box {
+  margin-top: 20px;
+}
+
+.header-pc {
+  display: block;
+}
+
+.offcanvas-header {
+  display: none;
+}
+
+.mobile-menu-content > .row > a > .flex-box {
+  align-items: center;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mobile-menu-content > .menu-title-holder {
+  margin-bottom: 15px;
+}
+.mobile-menu-content > .row > a {
+  text-decoration: none;
+}
+
+.mobile-menu-content .btn-close {
+  padding: 0;
+  margin-top: 0;
+}
+.mobile-menu-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.w-100 {
+  max-width: 100%;
+}
+
+.mobile-menu-content .lease-plan-holder.flex-box > .item.image-holder {
+  width: 20%;
+}
+
+.mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder {
+  width: 54%;
+  margin-left: 16px;
+}
+.mobile-menu-content
+  .lease-plan-holder.flex-box
+  > .item.logo-holder
+  > .sp-menu-title {
+  font-size: 14px;
+  text-decoration: none;
+  color: #4caccf;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.mobile-menu-content
+  .lease-plan-holder.flex-box
+  > .item.logo-holder
+  > .sp-menu-sub-title {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+.mobile-menu-content .lease-plan-holder.flex-box > .item.chevron-holder {
+  margin-left: 20px;
+}
+.mobile-menu-content .lease-plan-holder.flex-box > .item.chevron-holder > i {
+  font-size: 14px;
+  color: #000000;
+}
+.mobile-menu-content > .row {
+  --bs-gutter-x: 1.8rem;
+}
+.bg-light-yellow {
+  background: #fcfaef;
+}
+.bg-dark-yellow {
+  background: #ffeed3;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+.border-top {
+  border-top: 2px solid #d1d1d1 !important;
+}
+.bg-light-blue {
+  background-color: #e7f5fa;
+}
+.mobile-menu-content .btn-inquiry-holder > .btn-inquiry {
+  border-radius: 35px;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  padding: 14px;
+  margin-top: 10px;
+}
+
+.mobile-menu-content .btn-inquiry-holder > .btn-inquiry > .fa-arrow-right {
+  margin-left: 10px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 800;
+  background: url("../images/footer_bg_w.png");
+  background-size: 100% 100%;
+}
+
+footer .page-title-holder {
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+footer .page-title-holder > .page-title {
+  margin: 30px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+footer .logo-holder {
+  justify-content: center;
+  align-items: center;
+}
+footer .logo-holder > .belong-logo-holder {
+  width: 85px;
+  margin: 20px;
+}
+footer .logo-holder > .itochu-logo-holder {
+  width: 80px;
+  margin: 20px;
+}
+footer .text-desc-holder {
+  justify-content: center;
+  align-items: center;
+}
+footer .text-desc-holder p {
+  font-size: 12px;
+  font-family: Yu Gothic;
+}
+footer .text-image-ill-holder {
+  margin-top: 30px;
+}
+footer .trademark-holder {
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+  padding: 30px 0 0;
+  font-family: Yu Gothic;
+}
+footer .trademark-holder a, footer .trademark-holder p{
+  font-family: Yu Gothic;
+}
+footer .trademark-holder a,
+footer .trademark-holder p {
+  margin-bottom: 0;
+  font-size: 11px;
+  color: #000000;
+  text-decoration: none;
+}
+footer .trademark-holder p.copyright {
+  margin-left: auto;
+}
+
+
+@media all and (max-width: 991px) {
+  .header-sp {
+    display: block;
+  }
+  .header-pc {
+    display: none;
+  }
+  .offcanvas-header {
+    display: block;
+  }
+  .mobile-offcanvas {
+    visibility: hidden;
+    transform: translateX(100%);
+    border-radius: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 80%;
+    overflow: scroll;
+    transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  .mobile-offcanvas.show {
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .mobile-offcanvas .container,
+  .mobile-offcanvas .container-fluid {
+    display: block;
+  }
+}
+
+body.offcanvas-active {
+  overflow: hidden;
+}
+
+.screen-darken {
+  height: 100%;
+  width: 0%;
+  z-index: 30;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(34, 34, 34, 0.6);
+  transition: opacity 0.2s linear, visibility 0.2s, width 2s ease-in;
+}
+
+.screen-darken.active {
+  z-index: 1010;
+  transition: opacity 0.3s ease, width 0s;
+  opacity: 1;
+  width: 100%;
+  visibility: visible;
+}
+.pc {
+  display: block;
+}
+.sp {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 800;
+    background: transparent;
+    background-size: 100% 100%;
+  }
+
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+
+  footer .logo-holder > .belong-logo-holder {
+    width: 85px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer .page-title-holder {
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-top: 0;
+  }
+  footer .page-title-holder > .page-title {
+    text-decoration: none;
+    font-weight: 900;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    text-align:left;
+  }
+  footer .text-desc-holder {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  footer .text-desc-holder a,
+  footer .text-desc-holder p {
+    font-size: 11px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #000000;
+  }
+  footer .trademark-holder {
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .mobile-menu-content > .row > a > .flex-box{
+    padding-right: 0;
+  }
+  .grid-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 800;
+    background: transparent;
+    background-size: 100% 100%;
+    height: 554px;
+    padding: 100px 0 0;
+  }
+  header {
+    background: transparent;
+  }
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+  footer .container {
+    height: 100% !important;
+    padding: 20px !important;
+  }
+  footer .logo-holder > .belong-logo-holder {
+    width: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  footer .page-title-holder {
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-top: 0;
+  }
+  footer .page-title-holder > .page-title {
+    text-decoration: none;
+    font-weight: 900;
+    width: 45%;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px !important;
+  }
+  footer .text-desc-holder {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  footer .text-desc-holder a,
+  footer .text-desc-holder p {
+    font-size: 11px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #000000;
+  }
+  footer .trademark-holder a,
+  footer .trademark-holder p.copyright {
+    width: 100% !important;
+  }
+  footer .trademark-holder p.copyright {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-logo{
+    width: auto !important;
+  }
+  .mobile-menu-content .btn-inquiry-holder > .btn-inquiry{
+    font-weight: bold;
+  }
+  .mobile-menu-content .lease-plan-holder.flex-box > .item.image-holder {
+    width: 17% !important;
+  }
+  .mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder {
+    width: 156px;
+    margin-left: 25px;
+  }
+  .mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder > .sp-menu-sub-title{
+    margin-bottom: 5px;
+  }
+  .flow-content .btn-inquiry-holder i{
+    top: 24px !important;
+  }
+  .flow-content .btn-inquiry-holder{
+    height: 60px !important;
+    padding-top: 12px !important;
+  }
+}
