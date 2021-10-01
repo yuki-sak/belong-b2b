@@ -12,7 +12,8 @@
 }
 
 * {
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
 }
 
 /*
@@ -118,7 +119,7 @@ header .btn-inquiry-holder > .btn-inquiry {
   border: none;
   font-size: 14px;
 }
-header .btn-inquiry-holder > .btn-inquiry:hover{
+header .btn-inquiry-holder > .btn-inquiry:hover {
   /* border: 1px solid #000000 !important; */
   color: #fff;
 }
@@ -134,7 +135,7 @@ header .navbar-nav .nav-link:hover {
 /* header .navbar-nav .nav-link.active {
   border-bottom: 2px solid #4caccf;
 } */
-footer .container{
+footer .container {
   text-align: center;
   padding: 20px;
 }
@@ -206,10 +207,7 @@ footer .container{
   width: 54%;
   margin-left: 16px;
 }
-.mobile-menu-content
-  .lease-plan-holder.flex-box
-  > .item.logo-holder
-  > .sp-menu-title {
+.mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder > .sp-menu-title {
   font-size: 14px;
   text-decoration: none;
   color: #4caccf;
@@ -217,10 +215,7 @@ footer .container{
   margin-bottom: 0;
 }
 
-.mobile-menu-content
-  .lease-plan-holder.flex-box
-  > .item.logo-holder
-  > .sp-menu-sub-title {
+.mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder > .sp-menu-sub-title {
   font-size: 12px;
   text-decoration: none;
   color: #000000;
@@ -271,7 +266,7 @@ footer {
   width: 100%;
   bottom: 0;
   z-index: 800;
-  background: url("../images/footer_bg_w.png");
+  background: url("../images/footer_bg_pc.png");
   background-size: 100% 100%;
 }
 
@@ -316,7 +311,8 @@ footer .trademark-holder {
   padding: 30px 0 0;
   font-family: Yu Gothic;
 }
-footer .trademark-holder a, footer .trademark-holder p{
+footer .trademark-holder a,
+footer .trademark-holder p {
   font-family: Yu Gothic;
 }
 footer .trademark-holder a,
@@ -329,7 +325,6 @@ footer .trademark-holder p {
 footer .trademark-holder p.copyright {
   margin-left: auto;
 }
-
 
 @media all and (max-width: 991px) {
   .header-sp {
@@ -397,7 +392,6 @@ body.offcanvas-active {
 }
 
 @media all and (max-width: 768px) {
-
   footer {
     position: fixed;
     width: 100%;
@@ -431,7 +425,7 @@ body.offcanvas-active {
     width: 50%;
     margin: 0;
     padding: 10px;
-    text-align:left;
+    text-align: left;
   }
   footer .text-desc-holder {
     justify-content: flex-start;
@@ -454,10 +448,10 @@ body.offcanvas-active {
 }
 
 @media all and (max-width: 480px) {
-  .mobile-menu-content > .row > a > .flex-box{
+  .mobile-menu-content > .row > a > .flex-box {
     padding-right: 0;
   }
-  .grid-two{
+  .grid-two {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -525,10 +519,10 @@ body.offcanvas-active {
     margin-left: auto;
     margin-right: auto;
   }
-  .main-logo{
+  .main-logo {
     width: auto !important;
   }
-  .mobile-menu-content .btn-inquiry-holder > .btn-inquiry{
+  .mobile-menu-content .btn-inquiry-holder > .btn-inquiry {
     font-weight: bold;
   }
   .mobile-menu-content .lease-plan-holder.flex-box > .item.image-holder {
@@ -538,13 +532,13 @@ body.offcanvas-active {
     width: 156px;
     margin-left: 25px;
   }
-  .mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder > .sp-menu-sub-title{
+  .mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder > .sp-menu-sub-title {
     margin-bottom: 5px;
   }
-  .flow-content .btn-inquiry-holder i{
+  .flow-content .btn-inquiry-holder i {
     top: 24px !important;
   }
-  .flow-content .btn-inquiry-holder{
+  .flow-content .btn-inquiry-holder {
     height: 60px !important;
     padding-top: 12px !important;
   }

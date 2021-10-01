@@ -1,6 +1,6 @@
 %l-footer {
   height: 55.2rem;
-  background: url(../img/footer_ill_sp_b.png) no-repeat bottom center/100% 100%;
+  background: url(../img/bg/footer_bg_sp_b.png) no-repeat bottom center/100% 100%;
 
   padding: 9.7rem 4.5rem 0;
   @include pc {
@@ -17,24 +17,24 @@
       right: 0;
       margin: 0 auto;
       bottom: 10.6rem;
-      background: url(../img/footer_ill.png) no-repeat center bottom / contain;
+      background: url(../img/bg/footer_ill.png) no-repeat center bottom / contain;
     }
   }
 }
 .l-footer {
   @extend %l-footer;
-  background: $color_3 url(../img/footer_ill_sp_w.png) no-repeat bottom center/100% 100%;
+  background: $color_3 url(../img/bg/footer_bg_sp_w.png) no-repeat bottom center/100% 100%;
   @include pc {
-    background-image: url(../img/footer_bg_w.png);
+    background-image: url(../img/bg/footer_bg_pc.png);
   }
   &--top {
     @extend %l-footer;
   }
   &--orange {
     @extend %l-footer;
-    background: $orange url(../img/footer_ill_sp_w.png) no-repeat bottom center/100% 100%;
+    background: $orange url(../img/bg/footer_bg_sp_w.png) no-repeat bottom center/100% 100%;
     @include pc {
-      background-image: url(../img/footer_bg_w.png);
+      background-image: url(../img/bg/footer_bg_pc.png);
     }
   }
   &__logo {
@@ -181,7 +181,7 @@
     top: 0;
     bottom: 0;
     margin: auto 0;
-    background: url(../img/arrow-whitesm.png) no-repeat center center/contain;
+    background: url(../img/ico/arr-whitesm.png) no-repeat center center/contain;
     transition: 0.2s all;
   }
 

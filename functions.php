@@ -33,19 +33,6 @@ function Include_my_php($params = array()) {
 }
 add_shortcode('myphp', 'Include_my_php');
 
-/**
- * 送信完了後に完了ページへ遷移
- */
-function my_mwform_after_send( $Data )
-{
-    $form_key = $Data->get_form_key();
-    if ( $form_key === 'mw-wp-form-70' ) {
-        //問い合わせフォーム
-        wp_redirect('/lp/complete/');
-        exit;
-    }
-}
-add_action( 'mwform_after_send_mw-wp-form-123', 'my_mwform_after_send' );
 
 // To Delete tags
 remove_action( 'wp_head', 'feed_links', 2 ); //サイト全体のフィード
@@ -102,3 +89,32 @@ function remove_block_library_style() {
   wp_dequeue_style('wp-block-library');
   wp_dequeue_style('wp-block-library-theme');
 }
+
+// 定数定義
+define('TEMP_DIR', esc_url( get_template_directory_uri() ));
+
+// imgディレクトリまでのパスを取得
+function img_path() {
+  echo TEMP_DIR.'/assets/img';
+}
+
+
+/**
+ * 送信完了後に完了ページへ遷移
+ */
+function my_mwform_after_send( $Data )
+{
+    $form_key = $Data->get_form_key();
+    if ( $form_key === 'mw-wp-form-61' ) {
+        //問い合わせフォーム
+        wp_redirect('/lp/complete/');
+        exit;
+    }
+}
+add_action( 'mwform_after_send_mw-wp-form-123', 'my_mwform_after_send' );
+
+// 親テーマのテーマフォルダのパスを取得するショートコード
+function getimgurl($atts, $content = null) {
+  return get_template_directory_uri().'/assets/img';
+}
+add_shortcode('imgurl', 'getimgurl');

@@ -73,7 +73,7 @@
 }
 .u-middle {
   font-weight: 500;
-  text-shadow: rgba(0, 0, 0, 0.6) 0 0 0.15rem;
+  text-shadow: 0 0 0.1rem;
 }
 .u-bold {
   font-weight: 700;
@@ -127,3 +127,10 @@
 // .u_hoge {
 //   hoge
 // }
+.u-bg-blue {
+  background: $color_3;
+}
+
+.u-bg-orange {
+  background: $orange;
+}

@@ -4,8 +4,7 @@
   <div class=" l-cs_pc l-cs_sp">
 
     <h2 class="c-ttlGen">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Black&Blue.png" class="c-ttlGen__img"
-        alt="belong one">
+      <img src="<?php img_path(); ?>/common/logo-belong_one.png" class="c-ttlGen__img" alt="belong one">
       <p class="c-ttlGen__txt u-txt_l u-bold u-ta_c">リースプラン</p>
     </h2>
 
@@ -23,8 +22,7 @@
           </p>
         </div>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/belongone_lease_main.png" class="c-planGen__img"
-        alt="">
+      <img src="<?php img_path(); ?>/common/ill-lease_main.svg" class="c-planGen__img" alt="">
     </div>
   </div>
 </section>
@@ -45,8 +43,7 @@
         <div class="c-cardFeature">
 
           <p class="c-cardFeature__num u-txt_xl2 u-middle u-ta_c">01</p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/features_01.svg" class="c-cardFeature__img"
-            alt="">
+          <img src="<?php img_path(); ?>/lease/features_01.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold u-ta_c">保証込みでの低価格で<br>貴社の通信費用を削減</h3>
           <p class="c-cardFeature__txt u-txt_m2">伊藤忠商事グループのグローバルな端末調達力（約200万台/年調達）を活かして、低価格で高品質な端末を仕入れています。</p>
         </div>
@@ -55,8 +52,7 @@
       <li class="p-listFeature__item">
         <div class="c-cardFeature">
           <p class="c-cardFeature__num u-txt_xl2 u-middle u-ta_c">02</p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/features_02.svg" class="c-cardFeature__img"
-            alt="">
+          <img src="<?php img_path(); ?>/lease/features_02.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold u-ta_c">コールセンター代行で<br>貴社工数を削減</h3>
           <p class="c-cardFeature__txt u-txt_m2">国内最大級のオペレーションセンターだから、コールセンター代行、キッティング等も対応可能です。</p>
         </div>
@@ -65,8 +61,7 @@
       <li class="p-listFeature__item">
         <div class="c-cardFeature">
           <p class="c-cardFeature__num u-txt_xl2 u-middle u-ta_c">03</p>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/features_03.svg" class="c-cardFeature__img"
-            alt="">
+          <img src="<?php img_path(); ?>/lease/features_03.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold u-ta_c">安心して使えて、<br>安心して返却可能</h3>
           <p class="c-cardFeature__txt u-txt_m2">800万台を超える取り扱い実績から磨かれた適切なデータ消去及び検査を実施しています。</p>
         </div>
@@ -93,7 +88,7 @@
           <ul class="p-rental__list">
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPhone7.png" class="c-rentalItem__img">
+                <img src="<?php img_path(); ?>/common/iPhone7.png" class="c-rentalItem__img">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -114,7 +109,7 @@
             </li>
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPhone8.png" class="c-rentalItem__img">
+                <img src="<?php img_path(); ?>/common/iPhone8.png" class="c-rentalItem__img">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -135,8 +130,7 @@
             </li>
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPhoneXS_2.png"
-                  class="c-rentalItem__img">
+                <img src="<?php img_path(); ?>/common/iPhoneXS.png" class="c-rentalItem__img">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -169,8 +163,7 @@
           <ul class="p-rental__list">
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPadAir2.png"
-                  class="c-rentalItem__img--tablet">
+                <img src="<?php img_path(); ?>/common/iPadAir2.png" class="c-rentalItem__img--tablet">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -191,8 +184,7 @@
             </li>
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPad_6.png"
-                  class="c-rentalItem__img--tablet">
+                <img src="<?php img_path(); ?>/common/iPad6.png" class="c-rentalItem__img--tablet">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -213,8 +205,7 @@
             </li>
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPad_5.png"
-                  class="c-rentalItem__img--tablet">
+                <img src="<?php img_path(); ?>/common/iPad5.png" class="c-rentalItem__img--tablet">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">

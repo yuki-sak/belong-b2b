@@ -1,72 +1,72 @@
 @font-face {
-    font-family: 'Yu Gothic Medium';
+    font-family: "Yu Gothic Medium";
     src: url(../fonts/Yu-Gothic-Medium.otf);
     font-style: normal;
     font-weight: 400;
 }
 @font-face {
-    font-family: 'DIN';
+    font-family: "DIN";
     src: url(../fonts/DIN-Black.ttf);
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    font-family: 'DIN';
+    font-family: "DIN";
     src: url(../fonts/DIN-Bold.ttf);
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: 'DIN';
+    font-family: "DIN";
     src: url(../fonts/DIN-Medium.ttf);
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: 'DIN';
+    font-family: "DIN";
     src: url(../fonts/DIN.ttf);
     font-weight: 400;
     font-style: normal;
 }
 * {
-    font-family: 'Yu Gothic Medium';
+    font-family: "Yu Gothic Medium";
 }
-body{
-    background-color: #FFEED3 !important;
+body {
+    background-color: #ffeed3 !important;
 }
-.body-bg{
-    background: #FFEED3;
+.body-bg {
+    background: #ffeed3;
 }
-.category-content .logo-container img{
+.category-content .logo-container img {
     width: 316px;
     height: auto;
     margin-top: 0;
 }
-.category-content .logo-container{
+.category-content .logo-container {
     text-align: center;
 }
-.category-content .logo-container p.blue-word{
+.category-content .logo-container p.blue-word {
     text-align: center;
 }
-.lease-plan-content{
+.lease-plan-content {
     margin-top: 42px !important;
 }
-.category-content .lease-plan-content img{
+.category-content .lease-plan-content img {
     width: 412px;
     height: auto;
     margin-left: 0;
 }
-.sales-plan{
+.sales-plan {
     width: 460px;
     text-align: start;
     padding-top: 70px;
 }
-.heading-underline{
+.heading-underline {
     font: normal normal bold 24px/41px YuGothic;
     letter-spacing: 0px;
     color: #000000;
 }
-p.desc{
+p.desc {
     font: normal normal bold 16px/34px YuGothic;
     letter-spacing: 0px;
     color: #000000;
@@ -76,16 +76,16 @@ footer {
     width: 100%;
     bottom: 0;
     z-index: 800;
-    background: url(../images/buying/footer_bg_w.png);
+    background: url(../images/buying/footer_bg_pc.png);
     background-size: 100% 100%;
 }
-.blueimg-bg{
-    background: #FFE1B1 0% 0% no-repeat padding-box;
+.blueimg-bg {
+    background: #ffe1b1 0% 0% no-repeat padding-box;
     width: 100%;
     height: 657px;
     margin-top: 140px;
 }
-.feature-content p.feature-heading{
+.feature-content p.feature-heading {
     letter-spacing: 0px;
     color: #000000;
     text-align: center;
@@ -99,51 +99,51 @@ footer {
     font-family: DIN, sans-serif;
     font-weight: bold;
 }
-.flow-content .btn-inquiry-holder .btn-black{
+.flow-content .btn-inquiry-holder .btn-black {
     color: unset !important;
     background: unset !important;
 }
-.flow-content .btn-inquiry-holder .btn-black:hover{
+.flow-content .btn-inquiry-holder .btn-black:hover {
     border: unset !important;
     background: unset !important;
     color: unset !important;
 }
-.flow-content .btn-inquiry-holder:hover{
+.flow-content .btn-inquiry-holder:hover {
     border: 1px solid;
-    background: #FFFFFF;
+    background: #ffffff;
     color: #000000;
 }
-.feature-content{
+.feature-content {
     position: relative;
     height: 44px;
 }
-.feature-sub-heading{
+.feature-sub-heading {
     margin-top: 20px;
     text-align: center;
     font: normal normal bold 20px/34px YuGothic;
-letter-spacing: 0px;
-color: #000000;
-padding-bottom: 0;
-margin-bottom: 0;
+    letter-spacing: 0px;
+    color: #000000;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
-.card-half-radius{
+.card-half-radius {
     width: 334px;
-height: 465px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 200px 200px 0px 0px;
-margin-top: 94px;
-position: relative;
-padding-left: 42px;
-padding-right: 42px;
+    height: 465px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 200px 200px 0px 0px;
+    margin-top: 94px;
+    position: relative;
+    padding-left: 42px;
+    padding-right: 42px;
 }
-.header-pc{
+.header-pc {
     display: block !important;
-    background: #FFFFFF;
+    background: #ffffff;
 }
-.card-number{
+.card-number {
     text-align: center;
     letter-spacing: 0px;
-    color: #4CACCF;
+    color: #4caccf;
     font-size: 70px;
     font-family: DIN, sans-serif;
     font-weight: 500;
@@ -154,43 +154,42 @@ padding-right: 42px;
     margin-left: auto;
     margin-right: auto;
 }
-.card-half-radius .card-img{
+.card-half-radius .card-img {
     text-align: center;
-  
 }
-.card-half-radius.first-card .card-img img{
+.card-half-radius.first-card .card-img img {
     display: inline-block;
     width: 227px;
     height: 153px;
     margin-top: 70px;
 }
-.card-half-radius.second-card .card-img img{
+.card-half-radius.second-card .card-img img {
     margin-top: 85px;
     width: 179px;
     height: 144px;
 }
-.card-half-radius.third-card .card-img img{
+.card-half-radius.third-card .card-img img {
     width: 225px;
     height: 137px;
     margin-top: 90px;
 }
-.card-half-radius p.card-title{
+.card-half-radius p.card-title {
     margin-top: 45px;
     text-align: left;
-font: normal normal bold 18px/32px YuGothic;
-letter-spacing: 0px;
-color: #4CACCF;
+    font: normal normal bold 18px/32px YuGothic;
+    letter-spacing: 0px;
+    color: #4caccf;
 }
-.card-half-radius.first-card p.card-title{
+.card-half-radius.first-card p.card-title {
     margin-top: 45px;
 }
-.card-half-radius.second-card p.card-title{
+.card-half-radius.second-card p.card-title {
     margin-top: 40px;
 }
-.card-half-radius.third-card p.card-title{
+.card-half-radius.third-card p.card-title {
     margin-top: 41px;
 }
-.card-half-radius p.card-desc{
+.card-half-radius p.card-desc {
     text-align: left;
     font: normal normal medium 14px/26px YuGothic;
     letter-spacing: 0px;
@@ -201,12 +200,12 @@ color: #4CACCF;
     line-height: 1.8;
     font-weight: 500;
 }
-.yellow-underline{
+.yellow-underline {
     text-decoration: none;
     color: black;
     border-bottom: 2px solid #fff500;
 }
-.flow-heading{
+.flow-heading {
     text-align: center;
     font-size: 44px;
     font-family: DIN, sans-serif;
@@ -215,10 +214,10 @@ color: #4CACCF;
     line-height: normal;
     margin-bottom: 15px;
 }
-.flow-content{
+.flow-content {
     margin-top: 80px;
 }
-.flow-sub-heading{
+.flow-sub-heading {
     text-align: center;
     font-size: 20px;
     font-family: DIN, sans-serif;
@@ -227,58 +226,59 @@ color: #4CACCF;
     line-height: normal;
     margin-bottom: 0;
 }
-.card-pointer{
+.card-pointer {
     background: url(../images/buying/card-box.png);
     width: 218px;
     height: 200px;
     margin-right: 8px;
 }
-.card-pointer-container{
+.card-pointer-container {
     display: flex;
     margin-top: 100px;
 }
-.card-box{
+.card-box {
     width: 200px;
     height: 200px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
     border-radius: 10px;
 }
-.card-pointer-container  .step{
+.card-pointer-container .step {
     line-height: normal;
     text-align: center;
     height: fit-content;
     margin-bottom: 3px;
     letter-spacing: 0px;
-    color: #4CACCF;
+    color: #4caccf;
     font-family: DIN, sans-serif;
     font-size: 16px;
     font-weight: bold;
     margin-top: -40px;
     padding-bottom: 0;
 }
-.card-pointer-container  .number{
-    color: #4CACCF;
+.card-pointer-container .number {
+    color: #4caccf;
     font-family: DIN, sans-serif;
     font-size: 34px;
     font-weight: 500;
     text-align: center;
     line-height: normal;
-    }
-    .card-pointer-img{
-        text-align: center;
-        margin-top: 38px;
-    }
-.card-pointer-container .card-pointer p, .card-box p{
+}
+.card-pointer-img {
+    text-align: center;
+    margin-top: 38px;
+}
+.card-pointer-container .card-pointer p,
+.card-box p {
     font: normal normal bold 18px/33px YuGothic;
     letter-spacing: 0px;
     color: #000000;
     text-align: center;
     margin-top: 30px;
 }
-.img-4{
+.img-4 {
     margin-left: 20px;
 }
-.flow-content .btn-inquiry-holder{
+.flow-content .btn-inquiry-holder {
     text-align: center;
     margin-top: 95px;
     background: #000000 0% 0% no-repeat padding-box;
@@ -288,15 +288,14 @@ color: #4CACCF;
     padding-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.flow-content .btn-inquiry-holder a{
+.flow-content .btn-inquiry-holder a {
     font: normal normal bold 15px/26px YuGothic;
     letter-spacing: 0px;
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
-.flow-content .btn-inquiry-holder a i{
+.flow-content .btn-inquiry-holder a i {
     margin-left: 20px;
     position: absolute;
     margin-top: 4px;
@@ -307,222 +306,221 @@ footer {
     width: 100%;
     bottom: 0;
     z-index: 800;
-    background: url(../images/buying/footer_bg_w.png) !important;
+    background: url(../images/buying/footer_bg_pc.png) !important;
     background-size: 100% 100% !important;
     margin-top: 67px;
 }
-.breadcrumb{
+.breadcrumb {
     margin-left: 134px;
-    margin-top:  90px !important;
+    margin-top: 90px !important;
 }
-.breadcrumb li{
+.breadcrumb li {
     margin-right: 5px;
 }
-.breadcrumb li a{
-    font-family: 'Yu Gothic Medium';
+.breadcrumb li a {
+    font-family: "Yu Gothic Medium";
     letter-spacing: 0px;
     color: #000000 !important;
     font-size: 11px;
 }
 @media only screen and (max-width: 480px) {
-        .breadcrumb li{
-            margin-bottom: 20px;
-        }
-        .lease-plan-content{
-            margin-top: 20px !important;
-        }
-        .sales-plan{
-            width: 100%;
-        }
-        .mobile-menu-content .lease-plan-holder.flex-box > .item.image-holder{
-           width: 17%;
-        }
-        .mobile-menu-content .lease-plan-holder.flex-box > .item.chevron-holder > i{
-            position: absolute;
-            right: 15px;
-        }
-        .mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder p{
-            margin-bottom: 0;
-        }
-        .mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder{
-            width: 156px;
-        }
-        .mobile-menu-content .lease-plan-holder.flex-box > .item.chevron-holder{
-            margin-left: 15px;
-        }
-        .menu-title-holder
-        .header-sp>div>.flex-box{
-            margin-top: 0 !important;
-        }
-        .header-sp{
-            margin-right: -8px;
-        }
-        .mobile-menu-content > .row{
-            height: 120px;
-        }
-        .breadcrumb{
-            margin-left: 20px;
-            margin-top:  30px !important;
-        }
-        .flow-content .btn-inquiry-holder{
-            position: fixed;
-            bottom: 5px;
-            width: 95% !important;
-            z-index: 99999;
-            left: 50%;
-            transform: translateX(-50%) !important;
-        }
-        .belongone_sell_main {
-            width: 284px !important;
-            height: 288px !important;
-        }
-        .heading-underline{
-            font-size: 20px;
-        }
-        p.desc{
-            font-size: 14px;
-        }
-        .feature-content p.feature-heading{
-            font-size: 28px;
-            top: -20px;
-        }
-        .feature-sub-heading{
-            margin: 0;
-            font-size: 20px;
-        }
-        .card-half-radius{
-            height: 440px;
-        }
-        .blueimg-bg{
-            height: 1565px;
-        }
-        .card-half-radius{
-            margin-top: 44px;
-        }
-        .flow-heading{
-            font-size: 28px;
-        }
-        .flow-sub-heading{
-            font-size: 14px;
-        }
-        .card-half-radius.second-card .card-img img{
-            width: 165px !important;
-            height: auto;
-        }
-        .card-half-radius.third-card .card-img img{
-            width: 225px;
-            height: auto;
-        }
-        .card-pointer{
-            background: url(../images/buying/card-boxsp.svg);
-            width: 299px;
-            height: 110px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 20px;
-        }
-        .card-pointer-container-sp{
-            margin-top: 50px;
-        }
-        .header-sp>div>.flex-box{
-            margin-top: 0;
-        }
-        .row.bg-white{
-            height: unset;
-        }
-        .sales-plan{
-            margin-top: 30px;
-            padding-top: 0;
-        }
-        .blueimg-bg{
-            margin-top: 55px;
-        }
-        .header-pc{
-            display: none !important;
-        }
-        .card-pointer-container-sp  .step{
-            line-height: normal;
-            text-align: center;
-            height: fit-content;
-            margin-bottom: 3px;
-            letter-spacing: 0px;
-            color: #4CACCF;
-            font-family: DIN, sans-serif;
-            font-size: 16px;
-            font-weight: bold;
-            margin-top: -40px;
-            padding-bottom: 0;
-            display: inline-block;
-        }
-        .card-pointer-container-sp  .number{
-            color: #4CACCF;
-            font-family: DIN, sans-serif;
-            font-size: 34px;
-            font-weight: 500;
-            text-align: center;
-            line-height: normal;
-            display: inline;
-            }
-            .card-box{
-
-            }
-            .card-pointer-container-sp .card-pointer-img img{
-                width: 63px;
-                height: 39px;
-            }
-            .card-pointer-img{
-                display: inline-block;
-                margin-top: 22px;
-            }
-            .card-half-radius p.card-desc{
-                margin-top: 20px;
-            }
-            .steps{
-                margin-top: -20px;
-                position: absolute;
-                margin-left: auto;
-                left: 50%;
-                transform: translatex(-50%);
-                display: flex;
-            }
-            .card-pointer-container-sp .step{
-                margin-top: 13px;
-                margin-right: 10px;
-            }
-            .card-content{
-                padding-left: 25px;
-                display: flex;
-            }
-            .card-pointer .card-content p, .card-box p{
-                font: normal normal bold 18px/33px YuGothic;
-                letter-spacing: 0px;
-                color: #000000;
-                margin-top: 35px;
-                margin-left: 40px;
-            }
-            .img-4{
-                margin-left: 0;
-            }
-            .card-box{
-                background: url(../images/buying/長方形-836.svg);
-                width: 299px;
-                height: 95px;
-                margin-right: auto;
-                padding-right: 0;
-                margin-left: auto;
-            }
-            footer{
-                margin-top: 35px;
-                background: url(../images/buying/footer_ill_sp_w.png) !important;
-                height: 520px;
-                background-repeat: no-repeat !important;
-                width: 100%;
-                bottom: 0;
-                z-index: 800;
-                background-size: 100% 100% !important;
-                padding-top: 80px;
-            }
-            footer .logo-holder > .belong-logo-holder{
-                display: none;
-            }
+    .breadcrumb li {
+        margin-bottom: 20px;
     }
+    .lease-plan-content {
+        margin-top: 20px !important;
+    }
+    .sales-plan {
+        width: 100%;
+    }
+    .mobile-menu-content .lease-plan-holder.flex-box > .item.image-holder {
+        width: 17%;
+    }
+    .mobile-menu-content .lease-plan-holder.flex-box > .item.chevron-holder > i {
+        position: absolute;
+        right: 15px;
+    }
+    .mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder p {
+        margin-bottom: 0;
+    }
+    .mobile-menu-content .lease-plan-holder.flex-box > .item.logo-holder {
+        width: 156px;
+    }
+    .mobile-menu-content .lease-plan-holder.flex-box > .item.chevron-holder {
+        margin-left: 15px;
+    }
+    .menu-title-holder .header-sp > div > .flex-box {
+        margin-top: 0 !important;
+    }
+    .header-sp {
+        margin-right: -8px;
+    }
+    .mobile-menu-content > .row {
+        height: 120px;
+    }
+    .breadcrumb {
+        margin-left: 20px;
+        margin-top: 30px !important;
+    }
+    .flow-content .btn-inquiry-holder {
+        position: fixed;
+        bottom: 5px;
+        width: 95% !important;
+        z-index: 99999;
+        left: 50%;
+        transform: translateX(-50%) !important;
+    }
+    .belongone_sell_main {
+        width: 284px !important;
+        height: 288px !important;
+    }
+    .heading-underline {
+        font-size: 20px;
+    }
+    p.desc {
+        font-size: 14px;
+    }
+    .feature-content p.feature-heading {
+        font-size: 28px;
+        top: -20px;
+    }
+    .feature-sub-heading {
+        margin: 0;
+        font-size: 20px;
+    }
+    .card-half-radius {
+        height: 440px;
+    }
+    .blueimg-bg {
+        height: 1565px;
+    }
+    .card-half-radius {
+        margin-top: 44px;
+    }
+    .flow-heading {
+        font-size: 28px;
+    }
+    .flow-sub-heading {
+        font-size: 14px;
+    }
+    .card-half-radius.second-card .card-img img {
+        width: 165px !important;
+        height: auto;
+    }
+    .card-half-radius.third-card .card-img img {
+        width: 225px;
+        height: auto;
+    }
+    .card-pointer {
+        background: url(../images/buying/card-boxsp.svg);
+        width: 299px;
+        height: 110px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .card-pointer-container-sp {
+        margin-top: 50px;
+    }
+    .header-sp > div > .flex-box {
+        margin-top: 0;
+    }
+    .row.bg-white {
+        height: unset;
+    }
+    .sales-plan {
+        margin-top: 30px;
+        padding-top: 0;
+    }
+    .blueimg-bg {
+        margin-top: 55px;
+    }
+    .header-pc {
+        display: none !important;
+    }
+    .card-pointer-container-sp .step {
+        line-height: normal;
+        text-align: center;
+        height: fit-content;
+        margin-bottom: 3px;
+        letter-spacing: 0px;
+        color: #4caccf;
+        font-family: DIN, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: -40px;
+        padding-bottom: 0;
+        display: inline-block;
+    }
+    .card-pointer-container-sp .number {
+        color: #4caccf;
+        font-family: DIN, sans-serif;
+        font-size: 34px;
+        font-weight: 500;
+        text-align: center;
+        line-height: normal;
+        display: inline;
+    }
+    .card-box {
+    }
+    .card-pointer-container-sp .card-pointer-img img {
+        width: 63px;
+        height: 39px;
+    }
+    .card-pointer-img {
+        display: inline-block;
+        margin-top: 22px;
+    }
+    .card-half-radius p.card-desc {
+        margin-top: 20px;
+    }
+    .steps {
+        margin-top: -20px;
+        position: absolute;
+        margin-left: auto;
+        left: 50%;
+        transform: translatex(-50%);
+        display: flex;
+    }
+    .card-pointer-container-sp .step {
+        margin-top: 13px;
+        margin-right: 10px;
+    }
+    .card-content {
+        padding-left: 25px;
+        display: flex;
+    }
+    .card-pointer .card-content p,
+    .card-box p {
+        font: normal normal bold 18px/33px YuGothic;
+        letter-spacing: 0px;
+        color: #000000;
+        margin-top: 35px;
+        margin-left: 40px;
+    }
+    .img-4 {
+        margin-left: 0;
+    }
+    .card-box {
+        background: url(../images/buying/長方形-836.svg);
+        width: 299px;
+        height: 95px;
+        margin-right: auto;
+        padding-right: 0;
+        margin-left: auto;
+    }
+    footer {
+        margin-top: 35px;
+        background: url(../images/buying/footer_bg_sp_w.png) !important;
+        height: 520px;
+        background-repeat: no-repeat !important;
+        width: 100%;
+        bottom: 0;
+        z-index: 800;
+        background-size: 100% 100% !important;
+        padding-top: 80px;
+    }
+    footer .logo-holder > .belong-logo-holder {
+        display: none;
+    }
+}

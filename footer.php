@@ -37,14 +37,12 @@ if(is_front_page()){
     <li class="c-foonterLogo__item">
       <a href="" class="c-foonterLogo__link--belong">
 
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-belong.png" class="c-foonterLogo__img"
-          alt="belong ロゴ" class="">
+        <img src="<?php img_path(); ?>/common/logo-belong.png" class="c-foonterLogo__img" alt="belong ロゴ" class="">
       </a>
     </li>
     <li class="c-foonterLogo__item">
       <a href="" class="c-foonterLogo__link--itochu">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/itochu_logo.png" class="c-foonterLogo__img"
-          alt="itochu ロゴ" class="">
+        <img src="<?php img_path(); ?>/common/logo-itochu.png" class="c-foonterLogo__img" alt="itochu ロゴ" class="">
       </a>
     </li>
   </ul>

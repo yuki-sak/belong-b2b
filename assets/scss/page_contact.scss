@@ -1,7 +1,5 @@
 @import "foundation/variable";
-@import "foundation/reset";
 @import "foundation/mixin";
-
 /* ======================================================================
  page-contact
 ====================================================================== */
@@ -160,6 +158,7 @@ textarea {
     background: $color_2;
     color: $white;
     font-size: 11px;
+    line-height: 1.2;
     padding: 4px 7px;
     display: inline-block;
     margin-right: 11px;
@@ -168,9 +167,13 @@ textarea {
   &__lbl-txt {
     font-size: 16px;
     font-weight: bold;
+    line-height: 1.2;
   }
   &__wrap {
     width: 100%;
+    @include sp {
+      margin-top: 8px;
+    }
   }
   &__input-namewrap {
     width: calc((100% - 10px) / 2);
@@ -185,6 +188,7 @@ textarea {
   display: block;
   width: 100%;
   font-size: 14px;
+  line-height: 1.4;
   padding: 10px 12px;
   border: 1px solid $gr_88;
   border-radius: 5px;

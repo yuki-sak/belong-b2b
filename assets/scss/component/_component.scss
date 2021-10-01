@@ -64,7 +64,7 @@
     background: $color_2;
     @extend %c-btn_1;
     &:after {
-      background: url(../img/arrow-white.png) no-repeat center center/contain;
+      background: url(../img/ico/arr-white.png) no-repeat center center/contain;
     }
   }
   &--border {
@@ -73,7 +73,7 @@
     @include a_tag($color_2, $color_2);
     @extend %c-btn_1;
     &:after {
-      background: url(../img/arrow-blue.png) no-repeat center center/contain;
+      background: url(../img/ico/arr-blue.png) no-repeat center center/contain;
     }
   }
 }
@@ -101,5 +101,20 @@
         background: linear-gradient($gr_d9, $gr_d9) no-repeat left bottom/ 1px 69rem;
       }
     }
+  }
+}
+
+.c-ttlGen {
+  &__img {
+    display: block;
+    margin: 0 auto;
+    width: 22rem;
+    @include pc {
+      width: 26rem;
+    }
+  }
+  &__txt {
+    color: $color_2;
+    margin: 0.6rem 0 0;
   }
 }

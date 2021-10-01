@@ -52,8 +52,7 @@ a {
   text-align: center;
 }
 .top_bg {
-  background: transparent url(../../assets/images/top_bg_pc.png) 0% 0% no-repeat
-    padding-box;
+  background: transparent url(../../assets/images/top_bg_pc.png) 0% 0% no-repeat padding-box;
   /* background-size: contain; */
   background-size: 100% 100%;
   /* height: 4806px; */
@@ -62,7 +61,7 @@ a {
   margin-right: auto;
   /* max-width: 1366px; */
 }
-footer .page-title-holder{
+footer .page-title-holder {
   margin-bottom: 60px;
 }
 /* footer .text-desc-holder p,
@@ -96,7 +95,8 @@ footer {
 .menus ul li a {
   text-align: left;
   font: normal normal bold 14px/33px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -200,7 +200,8 @@ li:hover .nav-link:before {
   display: inline-block;
   text-align: left;
   font: normal normal bold 14px/24px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   background: #000000 0% 0% no-repeat padding-box;
@@ -212,10 +213,11 @@ li:hover .nav-link:before {
   text-decoration: none;
   cursor: pointer;
 }
-.menus .black-button a{
+.menus .black-button a {
   text-align: left;
   font: normal normal bold 14px/24px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   padding-right: 10px;
@@ -237,7 +239,8 @@ li:hover .nav-link:before {
 .blue-word {
   text-align: left;
   font: normal normal bold 28px/28px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #4caccf;
   opacity: 1;
@@ -246,7 +249,8 @@ li:hover .nav-link:before {
 .heading-underline {
   text-align: left;
   font: normal normal bold 23px/51px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -260,7 +264,8 @@ li:hover .nav-link:before {
 p.desc {
   text-align: justify;
   font: normal normal 15px/30px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   line-height: 30px;
   font-size: 15px;
@@ -281,7 +286,8 @@ p.desc {
   text-align: center;
   height: 45px;
   font: normal normal bold 15px/33px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
 }
@@ -293,7 +299,8 @@ p.desc {
   text-align: center;
   height: 45px;
   font: normal normal bold 15px/33px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
 }
@@ -351,7 +358,8 @@ p.desc {
   line-height: normal !important;
   text-align: left;
   font: normal normal bold 22px/50px DIN;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
   margin-bottom: 8px;
@@ -394,8 +402,8 @@ p.desc {
 }
 .menus .black-button i {
   position: absolute;
-      top: 20px;
-      right: 25px;
+  top: 20px;
+  right: 25px;
 }
 .phone-more-link > span::after {
   position: absolute;
@@ -410,7 +418,8 @@ p.desc {
   line-height: normal;
   text-align: left;
   font: normal normal bold 12px/33px Yu Gothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
   border-bottom: 1px solid black;
@@ -449,7 +458,8 @@ p.desc {
 }
 .btn-device-link a {
   font: normal normal bold 15px/26px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
   font-size: 15px;
@@ -474,7 +484,8 @@ p.desc {
 }
 .btn-blue a {
   font: normal normal bold 15px/26px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   padding: 25px 66px;
@@ -496,7 +507,8 @@ p.desc {
   margin-top: 20px;
   text-align: left;
   font: normal normal bold 15px/26px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
 }
@@ -510,7 +522,8 @@ p.desc {
 }
 .useful-content .btn-blue a {
   font: normal normal bold 15px/26px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #4caccf;
 }
@@ -534,7 +547,8 @@ p.desc {
 .first-banner-text {
   text-align: left;
   font: normal normal bold 50px/76px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -545,7 +559,8 @@ p.desc {
 .second-banner-text {
   text-align: center;
   font: normal normal bold 15px/30px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #000000;
   margin-top: 16px;
@@ -593,7 +608,8 @@ p.desc {
 }
 .btn-bottom .btn-blue a {
   font: normal normal bold 15px/26px YuGothic;
-  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
   letter-spacing: 0px;
   color: #4caccf;
 }
@@ -612,7 +628,7 @@ p.desc {
   transform: none;
   -webkit-transform: translateX(0);
 }
-.btn-blue:hover a img{
+.btn-blue:hover a img {
   transition-duration: 0.5s;
   transition-timing-function: ease;
   pointer-events: auto;
@@ -670,7 +686,7 @@ p.desc {
   content: "";
   width: 20px;
   height: 16px;
-  background-image: url(../../assets/images/arrow-white.png);
+  background-image: url(../../assets/images/arr-white.png);
   right: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -687,7 +703,7 @@ p.desc {
   padding: 0 60px;
   color: #4caccf;
 }
-.belong-biz .first-column .heading-underline{
+.belong-biz .first-column .heading-underline {
   margin-top: 69px;
 }
 .section-btn--white > span::after {
@@ -695,7 +711,7 @@ p.desc {
   content: "";
   width: 20px;
   height: 16px;
-  background-image: url(../../assets/images/arrow-blue.png);
+  background-image: url(../../assets/images/arr-blue.png);
   right: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -715,7 +731,8 @@ p.desc {
     font-size: 30px;
   }
 }
-.second-content-column .btn-device-link:hover, .second-content-column1 .btn-device-link:hover{
+.second-content-column .btn-device-link:hover,
+.second-content-column1 .btn-device-link:hover {
   background: #ffffff;
 }
 @media only screen and (max-width: 1200px) {
@@ -904,13 +921,14 @@ p.desc {
     font-size: 13px;
     font-weight: 500;
     font-family: YuGothic, sans-serif;
-    font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    font-family: "游ゴシック", DIN, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+      sans-serif;
     color: #000000;
     line-height: 2.2;
   }
   footer {
     margin-top: 35px;
-    background: url(../images/footer_ill_sp_b.png) !important;
+    background: url(../images/footer_bg_sp_b.png) !important;
     height: 520px;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -1046,64 +1064,63 @@ p.desc {
   }
 
   /* footer { */
-    /* padding-top: 80px; */
-    /* background-size: 100% 100% !important; */
+  /* padding-top: 80px; */
+  /* background-size: 100% 100% !important; */
   /* } */
-
 }
-.mt-60{
+.mt-60 {
   margin-top: 260px !important;
 }
 @media only screen and (max-width: 768px) {
-
   .mt-60 {
     margin-top: 60px !important;
   }
-  .belong-biz .second-column img{
+  .belong-biz .second-column img {
     margin-top: 60px !important;
   }
-  .sales-plan-content{
+  .sales-plan-content {
     margin-top: 60px !important;
   }
 
-  .top_bg{
+  .top_bg {
     background: transparent url(../../assets/images/top_bg_tablet.png) 0% 0% no-repeat padding-box;
     background-size: 100% 83%;
   }
-  footer{
+  footer {
     /* background: #e7f5fa !important; */
   }
-  .btn-blue a{
+  .btn-blue a {
     padding: 0;
   }
-  .first-column p.blue-word{
+  .first-column p.blue-word {
     margin-top: 65px;
   }
-  .btn-blue{
+  .btn-blue {
     width: 60% !important;
   }
-  .second-content-column1 .btn-device-link{
+  .second-content-column1 .btn-device-link {
     width: 60%;
   }
-  .belongone_sell_main{
+  .belongone_sell_main {
     width: auto !important;
   }
-  .flow-content .btn-inquiry-holder{
+  .flow-content .btn-inquiry-holder {
     width: 60% !important;
   }
-  .row.sales-plan-content .pc-br{
+  .row.sales-plan-content .pc-br {
     text-align: center;
   }
-  .second-content-column1 div.heading, .second-content-column div.heading{
+  .second-content-column1 div.heading,
+  .second-content-column div.heading {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
-  .belong-biz .first-column .btn-blue{
+  .belong-biz .first-column .btn-blue {
     width: 100% !important;
   }
   .trademark-holder {
-    margin-top: 45px !important
+    margin-top: 45px !important;
   }
   footer .container {
     height: auto;
@@ -1113,22 +1130,23 @@ p.desc {
     justify-content: center;
     align-items: unset;
     flex-direction: column;
-}
-footer .logo-holder{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-footer .logo-holder > .belong-logo-holder{
-  margin-left: auto;
-   margin-right: unset;
-}
+  }
+  footer .logo-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  footer .logo-holder > .belong-logo-holder {
+    margin-left: auto;
+    margin-right: unset;
+  }
 }
 @media only screen and (max-width: 486px) {
-  .phone-content{
+  .phone-content {
     height: unset;
     margin-bottom: 32px;
   }
-  .second-content-column1 div.heading, .second-content-column div.heading{
+  .second-content-column1 div.heading,
+  .second-content-column div.heading {
     width: 100% !important;
   }
   .pc-br {
@@ -1136,10 +1154,10 @@ footer .logo-holder > .belong-logo-holder{
   }
   .belong-biz {
     margin-top: 100px !important;
-}
-.belong-biz .first-column .sp-br img{
-  margin-top: 0 !important;
-}
+  }
+  .belong-biz .first-column .sp-br img {
+    margin-top: 0 !important;
+  }
   .top_bg {
     margin-top: 40px;
     background-size: 100% 75.5%;
@@ -1149,43 +1167,43 @@ footer .logo-holder > .belong-logo-holder{
 
   .flow-content .btn-inquiry-holder {
     width: 95% !important;
-}
+  }
   .sp-br {
     display: block;
   }
-  .belongone_sell_main{
+  .belongone_sell_main {
     width: 100% !important;
     transform: unset !important;
     margin-left: unset;
   }
-  .btn-blue a{
+  .btn-blue a {
     width: 100%;
   }
-  .btn-blue img{
+  .btn-blue img {
     right: 25px;
   }
 
-  .btn-blue{
+  .btn-blue {
     padding: 0;
   }
-  .btn-blue a{
+  .btn-blue a {
     padding: 21px 66px;
   }
-  .flex-box.page-title-holder.sp{
+  .flex-box.page-title-holder.sp {
     display: flex;
     grid-gap: 5%;
     justify-content: space-between;
   }
-  p.desc{
+  p.desc {
     font-size: 14px;
   }
-  .first-column .blue-word{
+  .first-column .blue-word {
     margin-top: 55px;
   }
-  .arch-banner-text{
+  .arch-banner-text {
     display: none;
   }
-  .image-banner{
+  .image-banner {
     margin-top: 0;
     padding-top: 50px;
   }
@@ -1194,37 +1212,37 @@ footer .logo-holder > .belong-logo-holder{
     /* height: 435px; */
     height: 554px;
     margin-top: 35px;
-    background: url(../images/footer_ill_sp_b.png) !important;
+    background: url(../images/footer_bg_sp_b.png) !important;
     background-repeat: no-repeat !important;
     background-size: 100% 100% !important;
     padding: 100px 0 0;
   }
 
-  footer .text-desc-holder{
+  footer .text-desc-holder {
     margin-top: -8px;
   }
-  footer .text-desc-holder a{
+  footer .text-desc-holder a {
     margin-left: auto;
     margin-right: auto;
   }
-  .flow-content .btn-inquiry-holder a{
+  .flow-content .btn-inquiry-holder a {
     font-weight: bold;
   }
-  footer .page-title-holder{
+  footer .page-title-holder {
     margin-bottom: 0;
   }
-.sp-mr{
-  margin-right: -65px;
-}
-.extra-space-button{
-  width: 100%;
-  height: 50px;
-  background-color: #e7f5fa;
-}
- .btn-blue{
-   width: 100% !important;
- }
- .second-content-column1 .btn-device-link{
+  .sp-mr {
+    margin-right: -65px;
+  }
+  .extra-space-button {
+    width: 100%;
+    height: 50px;
+    background-color: #e7f5fa;
+  }
+  .btn-blue {
+    width: 100% !important;
+  }
+  .second-content-column1 .btn-device-link {
     width: 100% !important;
   }
   .btn-blue a {
@@ -1236,11 +1254,11 @@ footer .logo-holder > .belong-logo-holder{
     bottom: 23px;
     text-align: left;
     line-height: 2;
-    padding: 0 10px!important;
+    padding: 0 10px !important;
     margin-top: 0px !important;
   }
   footer .logo-holder > .belong-logo-holder {
     margin-left: auto;
     margin-right: auto;
-}
+  }
 }

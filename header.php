@@ -12,13 +12,27 @@
   <?php /* get_template_part('lib/breadcrumb-jsonld');// JSONLDのパンくずを出力 */ ?>
   <?php wp_head(); ?>
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css2/style.css" rel="stylesheet">
+
+  <?php if(is_page('contact')): ?>
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css2/page_contact.css" rel="stylesheet">
+  <?php endif; ?>
+
 </head>
 
 <body <?php body_class(); ?>>
   <div class="l-container<?php echo is_front_page() ? '--top' : null ; ?>">
-    <header class="l-header<?php echo is_front_page() ? '--top' : null ; ?>">
+    <?php
+      if(is_front_page()){
+        $class = "l-header--top";
+      } else if(is_page('buy')){
+        $class = "l-header--orange";
+      } else {
+        $class = "l-header";
+      }
+    ?>
+    <header class="<?php echo $class; ?>">
       <div class="l-header__logo">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/belong_logo.png" alt="" class="">
+        <img src="<?php img_path(); ?>/common/logo-belong.png" alt="" class="">
       </div>
       <nav class="l-header__nav">
         <ul class="l-header__list c-headerList">
@@ -69,8 +83,7 @@
           <li class="c-spMenuListMain__item">
             <a href="" class="l-spMenuLink--lease u-txt_m2 u-bold">
               <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Black&Blue.svg"
-                  class="l-spMenuLink__img" alt="belong one">
+                <img src="<?php img_path(); ?>/common/logo-belong_one.png" class="l-spMenuLink__img" alt="belong one">
                 <p class="l-spMenuLink__txt--i">
                   リースプラン
                 </p>
@@ -80,8 +93,7 @@
           <li class="c-spMenuListMain__item">
             <a href="" class="l-spMenuLink--sale u-txt_m2 u-bold">
               <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Black&Blue.svg"
-                  class="l-spMenuLink__img" alt="belong one">
+                <img src="<?php img_path(); ?>/common/logo-belong_one.png" class="l-spMenuLink__img" alt="belong one">
                 <p class="l-spMenuLink__txt--i">
                   販売プラン
                 </p>
@@ -94,8 +106,7 @@
                 <p class="l-spMenuLink__txt">
                   法人買取
                 </p>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images//belong_buy_logo.svg"
-                  class="l-spMenuLink__img--pt2" alt="belong one">
+                <img src="<?php img_path(); ?>/common/logo-buy.svg" class="l-spMenuLink__img--pt2" alt="belong one">
               </div>
             </a>
           </li>

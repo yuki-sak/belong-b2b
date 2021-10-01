@@ -41,8 +41,7 @@
     <div class="l-topLeasePlan__read c-topLeasePlanRead">
       <div class="c-topLeasePlanRead__doc">
         <h2 class="c-topTtl">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Black&Blue.png" class="c-topTtl__img"
-            alt="belong one">
+          <img src="<?php img_path(); ?>/common/logo-belong_one.png" class="c-topTtl__img" alt="belong one">
           <p class="c-topTtl__txt u-txt_l u-bold u-ta_cl">リースプラン</p>
         </h2>
         <div class="c-topLeasePlanRead__docRead c-txtGen_1">
@@ -57,8 +56,7 @@
           </p>
         </div>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/belongone_lease_main.png"
-        class="c-topLeasePlanRead__img" alt="">
+      <img src="<?php img_path(); ?>/common/ill-lease_main.svg" class="c-topLeasePlanRead__img" alt="">
     </div>
 
     <div class="l-topLeasePlan__cont p-leasePlan">
@@ -70,7 +68,7 @@
           <ul class="p-rental__list">
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPhone7.png" class="c-rentalItem__img">
+                <img src="<?php img_path(); ?>/common/iPhone7.png" class="c-rentalItem__img">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -91,7 +89,7 @@
             </li>
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPhone8.png" class="c-rentalItem__img">
+                <img src="<?php img_path(); ?>/common/iPhone8.png" class="c-rentalItem__img">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -112,8 +110,7 @@
             </li>
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPhoneXS_2.png"
-                  class="c-rentalItem__img">
+                <img src="<?php img_path(); ?>/common/iPhoneXS.png" class="c-rentalItem__img">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -146,8 +143,7 @@
           <ul class="p-rental__list">
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPadAir2.png"
-                  class="c-rentalItem__img--tablet">
+                <img src="<?php img_path(); ?>/common/iPadAir2.png" class="c-rentalItem__img--tablet">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -168,8 +164,7 @@
             </li>
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPad_6.png"
-                  class="c-rentalItem__img--tablet">
+                <img src="<?php img_path(); ?>/common/iPad6.png" class="c-rentalItem__img--tablet">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -190,8 +185,7 @@
             </li>
             <li class="c-rentalItem">
               <div class="c-rentalItem__imgw">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/iPad_5.png"
-                  class="c-rentalItem__img--tablet">
+                <img src="<?php img_path(); ?>/common/iPad5.png" class="c-rentalItem__img--tablet">
               </div>
               <div class="c-rentalItem__doc">
                 <p class="c-rentalItem__docMaker u-txt_s2 u-middle">
@@ -229,8 +223,7 @@
     <div class="l-topSalePlan__read c-planGen">
       <div class="c-planGen__doc">
         <h2 class="c-topTtl">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Black&Blue.png" class="c-topTtl__img"
-            alt="belong one">
+          <img src="<?php img_path(); ?>/common/logo-belong_one.png" class="c-topTtl__img" alt="belong one">
           <p class="c-topTtl__txt u-txt_l u-bold u-ta_cl">販売プラン</p>
         </h2>
         <div class="c-planGen__docRead c-txtGen_1">
@@ -249,8 +242,7 @@
           Belong One 販売プラン を見る
         </a>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/belongone_sell_main.png" class="c-planGen__img"
-        alt="">
+      <img src="<?php img_path(); ?>/common/ill-sell_main.svg" class="c-planGen__img" alt="">
       <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold">
         Belong One 販売プラン を見る
       </a>
@@ -263,10 +255,9 @@
       <div class="c-planGen__doc">
         <h2 class="c-topTtl">
           <picture>
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/belong_buy_logo.svg"
-              media="(min-width: 768px)" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/belong買取forBiz_logosp.png"
-              class="c-topTtl__img--wide" alt="belong 買取 for Biz">
+            <source srcset="<?php img_path(); ?>/common/logo-buy.svg" media="(min-width: 768px)" />
+            <img src="<?php img_path(); ?>/common/logo-buy_1row.png" class="c-topTtl__img--wide"
+              alt="belong 買取 for Biz">
           </picture>
         </h2>
         <div class="c-planGen__docRead c-txtGen_1">
@@ -284,8 +275,7 @@
           Belong 買取 for Biz を見る
         </a>
       </div>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/belong_buy_main.png" class="c-planGen__img"
-        alt="">
+      <img src="<?php img_path(); ?>/common/ill-buy_main.svg" class="c-planGen__img" alt="">
     </div>
     <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold">
       Belong 買取 for Biz を見る
@@ -295,11 +285,9 @@
 
   <section class="l-topContents l-cs_pc l-cs_sp">
     <div class="l-topContents__ttl c-topContentsTtl">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/contents_ill.png" class="c-topContentsTtl__icon"
-        style="">
+      <img src="<?php img_path(); ?>/ico/ico-write_l.png" class="c-topContentsTtl__icon" style="">
       <h2 class="c-topContentsTtl__ttl">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-belong.png"
-          class="c-topContentsTtl__logo">
+        <img src="<?php img_path(); ?>/common/logo-belong.png" class="c-topContentsTtl__logo">
         <span class="c-topContentsTtl__txt u-txt_m6 u-bold">
           お役立ちコンテンツ
         </span>

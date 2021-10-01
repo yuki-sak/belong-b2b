@@ -68,23 +68,23 @@
   @extend %l-spMenuLink;
   &--lease {
     @extend %l-spMenuLink;
-    background: $color_3 url(../img/sp_menu_lease.png) no-repeat left 3.3rem center/3.5rem auto;
+    background: $color_3 url(../img/ico/ico-lease.png) no-repeat left 3.3rem center/3.5rem auto;
   }
   &--sale {
     @extend %l-spMenuLink;
-    background: $baige url(../img/sp_menu_buy.png) no-repeat left 2rem center/6.2rem auto;
+    background: $baige url(../img/ico/ico-buy.png) no-repeat left 2rem center/6.2rem auto;
   }
   &--buy {
     @extend %l-spMenuLink;
-    background: $orange url(../img/sp_menu_sell.png) no-repeat left 2rem center/6.4rem auto;
+    background: $orange url(../img/ico/ico-sell.png) no-repeat left 2rem center/6.4rem auto;
   }
   &--content {
     @extend %l-spMenuLink;
-    background: url(../img/sp_menu_content.png) no-repeat left 3.2rem center/3.7rem auto;
+    background: url(../img/ico/ico-content.png) no-repeat left 3.2rem center/3.7rem auto;
   }
   &--company {
     @extend %l-spMenuLink;
-    background: url(../img/sp_menu_company.png) no-repeat left 3.8rem center/3rem auto;
+    background: url(../img/ico/ico-company.png) no-repeat left 3.8rem center/3rem auto;
   }
   &__img {
     width: 16rem;
@@ -121,7 +121,7 @@
     top: 0;
     bottom: 0;
     margin: auto 0;
-    background: url(../img/arrow-whitesm.png) no-repeat center center/contain;
+    background: url(../img/ico/arr-whitesm.png) no-repeat center center/contain;
   }
 }
 

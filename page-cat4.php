@@ -11,7 +11,7 @@ get_header() ?>
 
   <div class="align-wide">
     <center>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contents_ill.png" class="img-hand" style="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-write_l.png" class="img-hand" style="">
       <div style="margin-top: 24px;">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-belong.png"
           class="logo-belong aos-init aos-animate">

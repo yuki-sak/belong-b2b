@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   height: 470.7rem;
-  background: url(../img/top_bg_sp.png) no-repeat center top/100% auto;
+  background: url(../img/top/top_bg_sp.png) no-repeat center top/100% auto;
   margin-top: 4.5rem;
   @include pc {
     height: 427.2rem;
-    background-image: url(../img/top_bg_pc2.png);
+    background-image: url(../img/top/top_bg_pc.png);
     background-size: 100% 100%;
     margin-top: 7rem;
   }

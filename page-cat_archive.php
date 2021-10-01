@@ -52,7 +52,7 @@ get_header() ?>
             </div>
             <div class="phone-content aos-init" data-aos="fade-up" data-aos-duration="1000">
               <div class="circle-bg">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cat1-1/iPhoneXS_2.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cat1-1/iPhoneXS.png">
               </div>
               <div class="text-content">
                 <p class="phone-brand">Apple</p>
@@ -114,7 +114,7 @@ get_header() ?>
             </div>
             <div class="phone-content aos-init" data-aos="fade-up" data-aos-duration="1000">
               <div class="circle-bg">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cat1-1/iPhoneXS_2.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cat1-1/iPhoneXS.png">
               </div>
               <div class="text-content">
                 <p class="phone-brand">Apple</p>
@@ -172,7 +172,7 @@ get_header() ?>
             </div>
             <div class="phone-content aos-init" data-aos="fade-up" data-aos-duration="1000">
               <div class="circle-bg">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cat1-1/iPhoneXS_2.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cat1-1/iPhoneXS.png">
               </div>
               <div class="text-content">
                 <p class="phone-brand">Apple</p>
