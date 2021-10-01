@@ -26,9 +26,11 @@
   background: $color_3 url(../img/bg/footer_bg_sp_w.png) no-repeat bottom center/100% 100%;
   @include pc {
     background-image: url(../img/bg/footer_bg_pc.png);
+    overflow: hidden;
   }
   &--top {
     @extend %l-footer;
+    overflow: hidden;
     // Phase1
     // @include pc {
     //   background: $white;
@@ -40,6 +42,7 @@
     background: $orange url(../img/bg/footer_bg_sp_w.png) no-repeat bottom center/100% 100%;
     @include pc {
       background-image: url(../img/bg/footer_bg_pc.png);
+      overflow: hidden;
     }
   }
   &__logo {
@@ -52,7 +55,8 @@
     margin-top: 0.5rem;
   }
   &__data {
-    margin-top: 16.6rem;
+    margin-top: 14rem;
+
     @include pc {
       margin-top: 17rem;
       display: flex;
@@ -74,7 +78,9 @@
 .c-footerLink {
   display: flex;
   @include sp {
-    height: 10rem;
+    //phase1
+    //height: 10rem;
+    height: 6rem;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;

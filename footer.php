@@ -12,7 +12,7 @@ if(is_front_page()){
   <nav>
     <ul class="l-footer__link c-footerLink">
       <li class="c-footerLink__item">
-        <a href="<?php echo home_url(); ?>/lp/" class="c-footerLink__link u-txt_m7 u-bold">リースプラン</a>
+        <a href="<?php echo home_url(); ?>/lease_lp1/" class="c-footerLink__link u-txt_m7 u-bold">リースプラン</a>
       </li>
       <!-- <li class="c-footerLink__item">
         <a href="" class="c-footerLink__link u-txt_m7 u-bold">販売プラン</a>
@@ -28,7 +28,7 @@ if(is_front_page()){
           class="c-footerLink__link u-txt_m7 u-bold">会社概要</a>
       </li>
       <li class="c-footerLink__item">
-        <a href="<?php echo home_url(); ?>/contact/" class="c-footerLink__link u-txt_m7 u-bold">お問い合わせ</a>
+        <a href="<?php echo home_url(); ?>/inquiry/" class="c-footerLink__link u-txt_m7 u-bold">お問い合わせ</a>
 
       </li>
     </ul>
@@ -43,13 +43,13 @@ if(is_front_page()){
     </li>
     <li class="c-foonterLogo__item">
       <a href="" class="c-foonterLogo__link--itochu">
-        <img src="<?php img_path(); ?>/common/logo-itochu.png" class="c-foonterLogo__img" alt="itochu ロゴ" class="">
+        <img src="<?php img_path(); ?>/common/logo-itochu.svg" class="c-foonterLogo__img" alt="itochu ロゴ" class="">
       </a>
     </li>
   </ul>
   <p class="l-footer__desc u-txt_s3 u-ta_c"><span class="u-font-jp">Belong</span>は、伊藤忠商事の100%グループ会社です。</p>
   <div class="l-footer__data">
-    <a href="" class="l-footer__link u-txt_s3 u-ta_lr">
+    <a href="https://about.belong.co.jp/privacy-policy/" target="_blank" class="l-footer__link u-txt_s3 u-ta_lr">
       プライバシーポリシー
     </a>
     <p class="l-footer__copy u-txt_s3 u-ta_lr">

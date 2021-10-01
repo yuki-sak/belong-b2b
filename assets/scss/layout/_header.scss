@@ -1,15 +1,15 @@
 %l-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 990;
   @include pc {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 990;
+    background: $white;
   }
-  background: $white;
   display: flex;
   justify-content: space-between;
-  padding: 2em 0 0 2rem;
+  padding: 1.2em 0 0.8rem 2rem;
   @include pc {
     padding: 0.8rem 3rem;
   }
@@ -30,9 +30,6 @@
   }
   &--orange {
     @extend %l-header;
-    @include sp {
-      background: $orange;
-    }
   }
   &__logo {
     flex: 0 0 12rem;

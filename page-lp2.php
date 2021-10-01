@@ -310,10 +310,10 @@
     <img src="<?php img_path(); ?>/common/logo-belong_one.png" alt="" class="l-footer__logo">
     <ul class="l-footer__link c-footerLink">
       <li class="c-footerLink__item">
-        <a href="" class="c-footerLink__link u-txt_s3">プライバシーポリシー</a>
+        <a href="https://about.belong.co.jp/" target="_blank" class="c-footerLink__link u-txt_s3">プライバシーポリシー</a>
       </li>
       <li class="c-footerLink__item">
-        <a href="" class="c-footerLink__link u-txt_s3">株式会社Belong</a>
+        <a href="https://www.itochu.co.jp/ja/" target="_blank" class="c-footerLink__link u-txt_s3">株式会社Belong</a>
       </li>
     </ul>
     <p class="l-footer__copy u-txt_s3">Copyright 2020 Belong Inc. All Rights Reserved.</p>

@@ -123,6 +123,9 @@
   color: $white;
   margin: 10rem auto 0;
   position: relative;
+  @include sp {
+    display: none;
+  }
   &:after {
     content: "";
     display: block;

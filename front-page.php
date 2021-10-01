@@ -33,7 +33,7 @@
     <li class="c-topNavList__item"><a href="https://about.belong.co.jp/about-us/" target="_blank" rel="noopener"
         class="c-topNavList__link u-txt_m2 u-bold">会社概要</a></li>
   </ul>
-  <a href="<?php echo home_url(); ?>/contact/" class="c-topNavConv u-txt_m2 u-bold">
+  <a href="<?php echo home_url(); ?>/inquiry/" class="c-topNavConv u-txt_m2 u-bold">
     お問い合わせ
   </a>
 </nav>

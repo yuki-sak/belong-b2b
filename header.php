@@ -43,7 +43,7 @@
       <nav class="l-header__nav">
         <ul class="l-header__list c-headerList">
           <li class="c-headerList__item">
-            <a href="<?php echo home_url(); ?>/lp/" class="c-headerList__link u-bold">
+            <a href="<?php echo home_url(); ?>/lease_lp1/" class="c-headerList__link u-bold">
               リースプラン
             </a>
           </li>
@@ -68,7 +68,7 @@
             </a>
           </li>
         </ul>
-        <a href="<?php echo home_url(); ?>/contact/" class="l-header__conv c-headerConv u-txt_m2 u-bold">お問い合わせ</a>
+        <a href="<?php echo home_url(); ?>/inquiry/" class="l-header__conv c-headerConv u-txt_m2 u-bold">お問い合わせ</a>
       </nav>
     </header>
 
@@ -87,7 +87,7 @@
       <nav class="l-spMenu__list">
         <ul class="c-spMenuListMain">
           <li class="c-spMenuListMain__item">
-            <a href="<?php echo home_url(); ?>/lp/" class="l-spMenuLink--lease u-txt_m2 u-bold">
+            <a href="<?php echo home_url(); ?>/lease_lp1/" class="l-spMenuLink--lease u-txt_m2 u-bold">
               <div>
                 <img src="<?php img_path(); ?>/common/logo-belong_one.png" class="l-spMenuLink__img" alt="belong one">
                 <p class="l-spMenuLink__txt--i">
@@ -131,7 +131,7 @@
           </li>
         </ul>
         <div class="l-spMenu__conv">
-          <a href="" class="c-spMenuConv u-txt_m4 u-bold">
+          <a href="<?php echo home_url(); ?>/inquiry/" class="c-spMenuConv u-txt_m4 u-bold">
             お問い合わせ
           </a>
         </div>
