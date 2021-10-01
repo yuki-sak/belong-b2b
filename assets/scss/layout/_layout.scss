@@ -19,3 +19,15 @@
     padding-right: 2rem;
   }
 }
+
+.l-bread {
+  padding-top: 2rem;
+  @include pc {
+    padding-top: 8rem;
+  }
+  &__inner {
+    a {
+      @include a_tag($black, $black);
+    }
+  }
+}

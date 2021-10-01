@@ -17,7 +17,7 @@
               <span class="c-txtGen_1__ttlLine"></span>
             </span>
           </p>
-          <p class="c-txtGen_1__txt font-size">
+          <p class="c-txtGen_1__txt u-txt_m10">
             本サービスは東京センチュリー株式会社と、株式会社Belongで提携をしてご提供している中古スマホ・タブレットの保証つきリースサービスです。
           </p>
         </div>

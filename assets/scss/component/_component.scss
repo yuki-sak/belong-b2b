@@ -118,3 +118,22 @@
     margin: 0.6rem 0 0;
   }
 }
+
+.c-maker {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  &__line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.8rem;
+    width: 100%;
+    background: $yellow;
+    z-index: -1;
+    @include sp {
+      //aos
+      transition-duration: 0s !important;
+    }
+  }
+}

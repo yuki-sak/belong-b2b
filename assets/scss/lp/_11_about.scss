@@ -1,0 +1,115 @@
+.l-about {
+  padding: 0 1.5rem;
+  &__inner {
+    background: $white;
+    padding: 4rem 0 4.2rem;
+    @include pc {
+      padding: 8rem 0 9.5rem;
+      width: 99rem;
+      margin: 0 auto;
+    }
+  }
+  &__doc {
+  }
+  &__comp {
+    margin-top: 3.37rem;
+    @include pc {
+      margin-top: 5rem;
+    }
+  }
+  &__comment {
+    margin-top: 3.4rem;
+  }
+}
+.c-aboutDoc {
+  &__ttl {
+  }
+  &__txt {
+    margin-top: 2.5rem;
+  }
+}
+
+.c-aboutComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__belong {
+    width: 8.2rem;
+    @include pc {
+      width: 12.4rem;
+    }
+  }
+  &__cross {
+    margin: 0 1rem;
+    @include pc {
+      font-size: 2.8rem;
+      margin: 1.8rem;
+      font-weight: 300;
+    }
+  }
+  &__tc {
+    width: 19.2rem;
+    @include pc {
+      width: 29.7rem;
+    }
+  }
+}
+
+.c-aboutComment {
+  @include pc {
+    width: 85rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__authW {
+    width: 14.5rem;
+  }
+  &__authImg {
+    width: 12.4rem;
+    height: 12.4rem;
+    display: block;
+    margin: 0 auto;
+    @include pc {
+      width: 14.5rem;
+      height: 14.5rem;
+    }
+  }
+  &__auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include pc {
+      flex-direction: column;
+      margin-top: 2rem;
+    }
+  }
+  &__comp {
+    @include pc {
+      line-height: 1.1;
+    }
+  }
+  &__name {
+    @include sp {
+      margin-left: 1rem;
+    }
+    @include pc {
+      line-height: 1.1;
+    }
+  }
+  &__unit {
+  }
+  &__txt {
+    margin: 1.6rem auto 0;
+    width: 29.6rem;
+    height: 38.8rem;
+    padding: 5.7rem 1.6rem 0;
+    background: url(../img/lp/balloon_comment_sp.png) no-repeat center center/contain;
+    @include pc {
+      width: 67.4rem;
+      height: 23.4rem;
+      padding: 3.2rem 3.8rem 0 6.6rem;
+      background-image: url(../img/lp/balloon_comment_pc.png);
+    }
+  }
+}

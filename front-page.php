@@ -11,8 +11,10 @@
 
 
 <div class="c-topKv">
-  <h1 class="c-topKv__ttl u-h1_1 u-bold u-ta_c">Belongの<br class="u-sp">法人向けサービス</h1>
-  <p class="c-topKv__txt u-txt_m u-bold u-ta_c">
+  <h1 class="c-topKv__ttl u-h1_1 u-bold u-ta_c" data-aos-duration="500" data-aos="fade-up" data-aos-delay="200">
+    Belongの<br class="u-sp">法人向けサービス
+  </h1>
+  <p class="c-topKv__txt u-txt_m u-bold u-ta_c" data-aos-duration="500" data-aos="fade-up" data-aos-delay="400">
     高品質な中古スマホを、ビジネスにあわせて安心に<br class="u-sp">
     利用できます。<br class="u-pc">
     不要になった端末もスムーズに買取。<br>
@@ -25,9 +27,11 @@
   <ul class="c-topNavList">
     <li class="c-topNavList__item"><a href="#" class="c-topNavList__link u-txt_m2 u-bold">リースプラン</a></li>
     <li class="c-topNavList__item"><a href="#" class="c-topNavList__link u-txt_m2 u-bold">販売プラン</a></li>
-    <li class="c-topNavList__item"><a href="#" class="c-topNavList__link u-txt_m2 u-bold">法人買取</a></li>
+    <li class="c-topNavList__item"><a href="<?php home_url(); ?>/buy/"
+        class="c-topNavList__link u-txt_m2 u-bold">法人買取</a></li>
     <li class="c-topNavList__item"><a href="#" class="c-topNavList__link u-txt_m2 u-bold">お役立ちコンテンツ</a></li>
-    <li class="c-topNavList__item"><a href="#" class="c-topNavList__link u-txt_m2 u-bold">会社概要</a></li>
+    <li class="c-topNavList__item"><a href="https://about.belong.co.jp/about-us/" target="_blank"
+        class="c-topNavList__link u-txt_m2 u-bold">会社概要</a></li>
   </ul>
   <a href="" class="c-topNavConv u-txt_m2 u-bold">
     お問い合わせ
@@ -40,33 +44,34 @@
 
     <div class="l-topLeasePlan__read c-topLeasePlanRead">
       <div class="c-topLeasePlanRead__doc">
-        <h2 class="c-topTtl">
+        <h2 class="c-topTtl" data-aos="fade-up" data-aos-duration="600">
           <img src="<?php img_path(); ?>/common/logo-belong_one.png" class="c-topTtl__img" alt="belong one">
           <p class="c-topTtl__txt u-txt_l u-bold u-ta_cl">リースプラン</p>
         </h2>
         <div class="c-topLeasePlanRead__docRead c-txtGen_1">
-          <p class="c-txtGen_1__ttlw u-txt_l2 u-bold u-ta_cl">
+          <p class="c-txtGen_1__ttlw u-txt_l2 u-bold u-ta_cl" data-aos="fade-up" data-aos-duration="600">
             <span class="c-txtGen_1__ttl">
               端末をお得にレンタルするなら
               <span class="c-txtGen_1__ttlLine"></span>
             </span>
           </p>
-          <p class="c-txtGen_1__txt font-size u-middle">
+          <p class="c-txtGen_1__txt u-txt_m10 u-middle" data-aos="fade-up" data-aos-duration="600">
             本サービスは東京センチュリー株式会社と、株式会社Belongで提携をしてご提供している中古スマホ・タブレットの保証つきリースサービスです。
           </p>
         </div>
       </div>
-      <img src="<?php img_path(); ?>/common/ill-lease_main.svg" class="c-topLeasePlanRead__img" alt="">
+      <img src="<?php img_path(); ?>/common/ill-lease_main.svg" class="c-topLeasePlanRead__img" alt=""
+        data-aos="fade-up" data-aos-duration="600">
     </div>
 
     <div class="l-topLeasePlan__cont p-leasePlan">
       <div class="p-leasePlan__cont">
         <div class="p-rental">
-          <h3 class="p-rental__ttl c-rentalTtl u-txt_m4 u-bold">
+          <h3 class="p-rental__ttl c-rentalTtl u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
             スマホレンタル
           </h3>
           <ul class="p-rental__list">
-            <li class="c-rentalItem">
+            <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
               <div class="c-rentalItem__imgw">
                 <img src="<?php img_path(); ?>/common/iPhone7.png" class="c-rentalItem__img">
               </div>
@@ -87,7 +92,7 @@
                 </p>
               </div>
             </li>
-            <li class="c-rentalItem">
+            <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
               <div class="c-rentalItem__imgw">
                 <img src="<?php img_path(); ?>/common/iPhone8.png" class="c-rentalItem__img">
               </div>
@@ -108,7 +113,7 @@
                 </p>
               </div>
             </li>
-            <li class="c-rentalItem">
+            <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
               <div class="c-rentalItem__imgw">
                 <img src="<?php img_path(); ?>/common/iPhoneXS.png" class="c-rentalItem__img">
               </div>
@@ -130,18 +135,18 @@
               </div>
             </li>
           </ul>
-          <a href="" class="p-rental__more c-rentalMore u-txt_m u-bold">
+          <a href="" class="p-rental__more c-rentalMore u-txt_m u-bold" data-aos="fade-up" data-aos-duration="600">
             スマホレンタルを見る
           </a>
         </div>
       </div>
       <div class="p-leasePlan__cont">
         <div class="p-rental">
-          <h3 class="p-rental__ttl c-rentalTtl u-txt_m4 u-bold">
+          <h3 class="p-rental__ttl c-rentalTtl u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
             タブレットレンタル
           </h3>
           <ul class="p-rental__list">
-            <li class="c-rentalItem">
+            <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
               <div class="c-rentalItem__imgw">
                 <img src="<?php img_path(); ?>/common/iPadAir2.png" class="c-rentalItem__img--tablet">
               </div>
@@ -162,7 +167,7 @@
                 </p>
               </div>
             </li>
-            <li class="c-rentalItem">
+            <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
               <div class="c-rentalItem__imgw">
                 <img src="<?php img_path(); ?>/common/iPad6.png" class="c-rentalItem__img--tablet">
               </div>
@@ -183,7 +188,7 @@
                 </p>
               </div>
             </li>
-            <li class="c-rentalItem">
+            <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
               <div class="c-rentalItem__imgw">
                 <img src="<?php img_path(); ?>/common/iPad5.png" class="c-rentalItem__img--tablet">
               </div>
@@ -205,14 +210,14 @@
               </div>
             </li>
           </ul>
-          <a href="" class="p-rental__more c-rentalMore u-txt_m u-bold">
+          <a href="" class="p-rental__more c-rentalMore u-txt_m u-bold" data-aos="fade-up" data-aos-duration="600">
             タブレットレンタルを見る
           </a>
         </div>
       </div>
     </div>
 
-    <a href="" class="l-topLeasePlan__btn c-btn_1--bg u-txt_m4 u-bold">
+    <a href="" class="l-topLeasePlan__btn c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
       Belong Oneリースプランを見る
     </a>
 
@@ -222,28 +227,29 @@
   <section class="l-topSalePlan l-cs_pc l-cs_sp">
     <div class="l-topSalePlan__read c-planGen">
       <div class="c-planGen__doc">
-        <h2 class="c-topTtl">
+        <h2 class="c-topTtl" data-aos="fade-up" data-aos-duration="600">
           <img src="<?php img_path(); ?>/common/logo-belong_one.png" class="c-topTtl__img" alt="belong one">
           <p class="c-topTtl__txt u-txt_l u-bold u-ta_cl">販売プラン</p>
         </h2>
         <div class="c-planGen__docRead c-txtGen_1">
-          <p class="c-txtGen_1__ttlw u-txt_l6 u-bold u-ta_cl">
+          <p class="c-txtGen_1__ttlw u-txt_l6 u-bold u-ta_cl" data-aos="fade-up" data-aos-duration="600">
             <span class="c-txtGen_1__ttl--over">
               安心お得に買うならBelongの中古端末
               <span class="c-txtGen_1__ttlLine"></span>
             </span>
           </p>
-          <p class="c-txtGen_1__txt font-size u-middle">
+          <p class="c-txtGen_1__txt u-txt_m10 u-middle" data-aos="fade-up" data-aos-duration="600">
             本サービスは東京センチュリー株式会社と、株式会社Belongで提携をしてご提供している中古スマホ・タブレットの保証つきリースサービスです。
           </p>
         </div>
 
-        <a href="" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold">
+        <a href="" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
           Belong One 販売プラン を見る
         </a>
       </div>
-      <img src="<?php img_path(); ?>/common/ill-sell_main.svg" class="c-planGen__img" alt="">
-      <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold">
+      <img src="<?php img_path(); ?>/common/ill-sell_main.svg" class="c-planGen__img" alt="" data-aos="fade-up"
+        data-aos-duration="600">
+      <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
         Belong One 販売プラン を見る
       </a>
     </div>
@@ -253,7 +259,7 @@
   <section class="l-topBuyPlan l-cs_pc l-cs_sp">
     <div class="l-topSalePlan__read c-planGen--rev">
       <div class="c-planGen__doc">
-        <h2 class="c-topTtl">
+        <h2 class="c-topTtl" data-aos="fade-up" data-aos-duration="600">
           <picture>
             <source srcset="<?php img_path(); ?>/common/logo-buy.svg" media="(min-width: 768px)" />
             <img src="<?php img_path(); ?>/common/logo-buy_1row.png" class="c-topTtl__img--wide"
@@ -261,23 +267,24 @@
           </picture>
         </h2>
         <div class="c-planGen__docRead c-txtGen_1">
-          <p class="c-txtGen_1__ttlw u-txt_l2 u-bold u-ta_cl">
+          <p class="c-txtGen_1__ttlw u-txt_l2 u-bold u-ta_cl" data-aos="fade-up" data-aos-duration="600">
             <span class="c-txtGen_1__ttl">
               不要な端末を売るのも、Belongで。
               <span class="c-txtGen_1__ttlLine"></span>
             </span>
           </p>
-          <p class="c-txtGen_1__txt font-size u-middle">
+          <p class="c-txtGen_1__txt u-txt_m10 u-middle" data-aos="fade-up" data-aos-duration="600">
             本サービスは東京センチュリー株式会社と、株式会社Belongで提携をしてご提供している中古スマホ・タブレットの保証つきリースサービスです。
           </p>
         </div>
-        <a href="" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold">
+        <a href="" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
           Belong 買取 for Biz を見る
         </a>
       </div>
-      <img src="<?php img_path(); ?>/common/ill-buy_main.svg" class="c-planGen__img" alt="">
+      <img src="<?php img_path(); ?>/common/ill-buy_main.svg" class="c-planGen__img" alt="" data-aos="fade-up"
+        data-aos-duration="600">
     </div>
-    <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold">
+    <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
       Belong 買取 for Biz を見る
     </a>
   </section>
@@ -286,7 +293,7 @@
   <section class="l-topContents l-cs_pc l-cs_sp">
     <div class="l-topContents__ttl c-topContentsTtl">
       <img src="<?php img_path(); ?>/ico/ico-write_l.png" class="c-topContentsTtl__icon" style="">
-      <h2 class="c-topContentsTtl__ttl">
+      <h2 class="c-topContentsTtl__ttl" data-aos="fade-up" data-aos-duration="600">
         <img src="<?php img_path(); ?>/common/logo-belong.png" class="c-topContentsTtl__logo">
         <span class="c-topContentsTtl__txt u-txt_m6 u-bold">
           お役立ちコンテンツ
@@ -295,7 +302,7 @@
     </div>
     <div class="l-topContents__list jsSliderSp_parent">
       <ul class="c-topContentsList jsSliderSp">
-        <li class="c-topContentsList__item">
+        <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600">
           <!-- test -->
           <a href="" class="c-cardTopContents">
             <img src="https://placehold.jp/290x207.png" alt="" class="c-cardTopContents__img">
@@ -308,7 +315,7 @@
           </a>
           <!-- test -->
         </li>
-        <li class="c-topContentsList__item">
+        <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
           <a href="" class="c-cardTopContents">
             <img src="https://placehold.jp/290x207.png" alt="" class="c-cardTopContents__img">
             <p class="c-cardTopContents__ttl u-txt_m8 u-bold">iPhone SE（第2世代）のバッテリー容量を他モデルと比較！</p>
@@ -319,7 +326,7 @@
             </p>
           </a>
         </li>
-        <li class="c-topContentsList__item">
+        <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
           <a href="" class="c-cardTopContents">
             <img src="https://placehold.jp/290x207.png" alt="" class="c-cardTopContents__img">
             <p class="c-cardTopContents__ttl u-txt_m8 u-bold">iPhone SE（第2世代）のバッテリー容量を他モデルと比較！</p>
@@ -331,12 +338,12 @@
           </a>
         </li>
       </ul>
-      <div class="jsSliderSpCt">
+      <div class="jsSliderSpCt" data-aos="fade" data-aos-duration="600" data-aos-delay="600">
         <div class="jsSliderSpCt__prevArr"></div>
         <div class="jsSliderSpCt__nextArr"></div>
       </div>
     </div>
-    <a href="" class="l-topContents__btn c-btn_1--border u-txt_m4 u-bold">
+    <a href="" class="l-topContents__btn c-btn_1--border u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
       お役立ちコンテンツを見る
     </a>
   </section>

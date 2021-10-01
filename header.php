@@ -31,9 +31,15 @@
       }
     ?>
     <header class="<?php echo $class; ?>">
+      <?php if(is_front_page()): ?>
       <div class="l-header__logo">
         <img src="<?php img_path(); ?>/common/logo-belong.png" alt="" class="">
       </div>
+      <?php else: ?>
+      <a href="<?php echo home_url(); ?>" class="l-header__logo--link">
+        <img src="<?php img_path(); ?>/common/logo-belong.png" alt="" class="">
+      </a>
+      <?php endif; ?>
       <nav class="l-header__nav">
         <ul class="l-header__list c-headerList">
           <li class="c-headerList__item">
@@ -47,7 +53,7 @@
             </a>
           </li>
           <li class="c-headerList__item">
-            <a href="" class="c-headerList__link u-bold">
+            <a href="<?php home_url(); ?>/buy/" class="c-headerList__link u-bold">
               法人買取
             </a>
           </li>
@@ -57,7 +63,7 @@
             </a>
           </li>
           <li class="c-headerList__item">
-            <a href="" class="c-headerList__link u-bold">
+            <a href="https://about.belong.co.jp/about-us/" target="_blank" class="c-headerList__link u-bold">
               会社概要
             </a>
           </li>
@@ -101,7 +107,7 @@
             </a>
           </li>
           <li class="c-spMenuListMain__item">
-            <a href="" class="l-spMenuLink--buy u-txt_s2 u-bold">
+            <a href="<?php home_url(); ?>/buy/" class="l-spMenuLink--buy u-txt_s2 u-bold">
               <div>
                 <p class="l-spMenuLink__txt">
                   法人買取
@@ -118,7 +124,8 @@
             </a>
           </li>
           <li class="c-spMenuListSub__item">
-            <a href="" class="l-spMenuLink--company u-txt_m2 u-bold">
+            <a href="https://about.belong.co.jp/about-us/" target="_blank"
+              class="l-spMenuLink--company u-txt_m2 u-bold">
               会社概要
             </a>
           </li>

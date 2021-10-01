@@ -77,6 +77,14 @@
   font-size: 1.6rem;
   line-height: 1;
 }
+.u-txt_m10 {
+  font-size: 1.4rem;
+  line-height: 2.9rem;
+  @include pc {
+    font-size: 1.6rem;
+    line-height: 3.4rem;
+  }
+}
 .u-txt_l {
   font-size: 2.4rem;
   //line-height: 5.5rem;

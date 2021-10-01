@@ -1,0 +1,122 @@
+.l-recom {
+  padding: 7rem 0;
+  &__inner {
+    @include pc {
+      width: 100rem;
+      margin: 0 auto;
+    }
+  }
+  &__ttl {
+  }
+  &__balloon {
+    margin-top: 3.5rem;
+  }
+  &__txt {
+    margin-top: 4rem;
+  }
+}
+
+.c-recomBalloon {
+  &__wrap {
+    width: 100%;
+    height: 31.6rem;
+    position: relative;
+    @include pc {
+      height: 32rem;
+    }
+  }
+  &__1 {
+    width: 17.1rem;
+    height: 7.7rem;
+    padding: 1.6rem 1.8rem 0;
+    background: url(../img/lp/balloon_1.png) no-repeat center center/contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    transform: translateX(-7.2rem);
+    @include pc {
+      width: 27.5rem;
+      height: 12rem;
+      padding: 2.6rem 4.8rem 0;
+      transform: translateX(-17rem);
+    }
+  }
+  &__2 {
+    width: 17.1rem;
+    height: 7.7rem;
+    padding: 1.6rem 2rem 0;
+    background: url(../img/lp/balloon_2.png) no-repeat center center/contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 5.6rem;
+    transform: translateX(7.2rem);
+    @include pc {
+      width: 27.5rem;
+      height: 12rem;
+      padding: 2.6rem 4.8rem 0;
+      transform: translateX(17rem);
+    }
+  }
+  &__3 {
+    width: 26rem;
+    height: 11.6rem;
+    padding: 2.2rem 2rem 0;
+    background: url(../img/lp/balloon_3.png) no-repeat center center/contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 15.4rem;
+    transform: translateX(-4.5rem);
+    @include pc {
+      width: 39.8rem;
+      height: 17.6rem;
+      padding: 3.2rem 5rem 0;
+      transform: translateX(-27rem);
+    }
+  }
+  &__4 {
+    width: 17.1rem;
+    height: 7.7rem;
+    padding: 1.6rem 2rem 0;
+    background: url(../img/lp/balloon_4.png) no-repeat center center/contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20.6rem;
+    transform: translateX(8.2rem);
+    @include pc {
+      width: 27.5rem;
+      height: 12rem;
+      padding: 2.6rem 4.8rem 0;
+      transform: translateX(22.2rem);
+    }
+  }
+  &__ill {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    z-index: 4;
+    @include pc {
+      margin-top: -8rem;
+    }
+  }
+  &__man {
+    width: 10.1rem;
+    @include pc {
+      width: 14.4rem;
+    }
+  }
+  &__woman {
+    width: 9.4rem;
+    @include pc {
+      width: 13.4rem;
+    }
+  }
+}

@@ -1,8 +1,8 @@
 .l-buyRead {
   background: $orange;
-  padding: 12.2rem 0 5rem;
+  padding: 8.2rem 0 5rem;
   @include pc {
-    padding: 15.2rem 0 8.5rem;
+    padding: 10.2rem 0 8.5rem;
   }
   &__cont {
     margin-top: 1.5rem;
@@ -78,6 +78,10 @@
     justify-content: center;
     gap: 0.9rem;
     margin-top: -1.3rem;
+    @include pc {
+      flex-direction: column;
+      margin-top: -3.4rem;
+    }
   }
   &__numUnit {
     color: $color_2;
@@ -122,6 +126,10 @@
   }
   &__item {
     padding-top: 1.6rem;
+    @include sp {
+      //aos
+      transition-delay: 0s !important;
+    }
   }
 }
 

@@ -1,0 +1,178 @@
+.l-container {
+  overflow: hidden;
+}
+.l-header {
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 1.4rem;
+    @include pc {
+      width: 100%;
+      padding: 2rem 4rem 0;
+    }
+  }
+}
+
+.c-headerLogo {
+  display: block;
+  width: 15rem;
+  @include pc {
+    width: 29.7rem;
+  }
+  img {
+    width: 100%;
+  }
+}
+.c-headerContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16.8rem;
+  height: 4.4rem;
+  border-radius: 9999px;
+  background: $color_2;
+  color: $white;
+  @include pc {
+    width: 28rem;
+    height: 7rem;
+  }
+  &::after {
+    content: "";
+    width: 1.1rem;
+    height: 8rem;
+    display: inline-block;
+    background: url(../img/ico/arr-white.png) no-repeat center center/contain;
+    margin-left: 0.4rem;
+    transform: translateY(0.1rem);
+  }
+}
+
+//aaa
+
+.c-ttl {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  &__en {
+    color: $color_3;
+    position: absolute;
+    z-index: -1;
+    top: -0.6rem;
+    left: 50%;
+    margin: 0 auto;
+    white-space: nowrap;
+    transform: translateX(-50%) translateY(-0.8rem);
+    @include pc {
+      top: -1.6rem;
+    }
+    &--white {
+      color: $white;
+      position: absolute;
+      z-index: -1;
+      top: -0.7rem;
+      left: 50%;
+      margin: 0 auto;
+      white-space: nowrap;
+      transform: translateX(-50%) translateY(-0.8rem);
+      @include pc {
+        top: -1.6rem;
+      }
+    }
+  }
+  &__ja {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 0.8rem;
+  }
+  &__line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.7rem;
+    border-bottom: 0.2rem solid $black;
+  }
+}
+
+.l-footer {
+  padding: 0 1.5rem 2.8rem;
+  @include pc {
+    height: 15rem;
+    padding: 0;
+  }
+  &__inner {
+    border-top: 0.1rem solid $gr_88;
+    padding: 2rem 0.5rem 0;
+    @include pc {
+      width: 118rem;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      height: 100%;
+      padding: 0;
+    }
+  }
+  &__logo {
+    width: 19rem;
+  }
+  &__link {
+    @include sp {
+      margin-top: 2.8rem;
+    }
+    @include pc {
+      margin-left: 5.2rem;
+    }
+  }
+  &__copy {
+    @include sp {
+      margin-top: 4rem;
+    }
+    @include pc {
+      margin-left: auto;
+    }
+  }
+}
+
+.c-footerLink {
+  @include pc {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    @include pc {
+      &:not(:first-child) {
+        margin-left: 4rem;
+      }
+    }
+  }
+  &__link {
+    display: block;
+  }
+}
+
+img {
+  width: 50px;
+}
+
+.c-maker {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  &__line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.5rem;
+    @include pc {
+      height: 0.8rem;
+    }
+    width: 100%;
+    background: $yellow;
+    z-index: -1;
+    @include sp {
+      //aos
+      transition-duration: 0s !important;
+    }
+  }
+}

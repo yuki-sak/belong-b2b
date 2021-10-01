@@ -1,15 +1,13 @@
-<?php get_header() ?>
-
 <div class="l-bread u-bg-orange">
   <p class="l-bread__inner l-cs_pc l-cs_sp">
-    TOP ＞ 法人買取
+    <a href="[homeurl]">TOP</a> ＞ 法人買取
   </p>
 </div>
 <section class="l-buyRead">
   <div class=" l-cs_pc l-cs_sp">
 
     <h2 class="c-buyTtl" data-aos="fade-up" data-aos-duration="400">
-      <img src="<?php img_path(); ?>/buy/kaitori_ttl.svg" class="c-buyTtl__img" alt="belong 買取 for Biz">
+      <img src="[imgurl]/buy/kaitori_ttl.svg" class="c-buyTtl__img" alt="belong 買取 for Biz">
     </h2>
 
     <div class="l-buyRead__cont c-planGen--revSp">
@@ -21,12 +19,11 @@
               <span class="c-txtGen_1__ttlLine"></span>
             </span>
           </p>
-          <p class="c-txtGen_1__txt u-txt_m10">
-            本サービスは東京センチュリー株式会社と、株式会社Belongで提携をしてご提供している中古スマホ・タブレットの保証つきリースサービスです。
+          <p class="c-txtGen_1__txt font-size">大量のスマホ・タブレットの買取なら<br> 伊藤忠商事グループのBelongにご依頼ください。<br> お見積りは無料です。
           </p>
         </div>
       </div>
-      <img src="<?php img_path(); ?>/common/ill-buy_main.svg" class="c-planGen__img" alt="" data-aos="fade-up"
+      <img src="[imgurl]/common/ill-buy_main.svg" class="c-planGen__img" alt="" data-aos="fade-up"
         data-aos-duration="500">
     </div>
   </div>
@@ -48,9 +45,9 @@
         <div class="c-cardFeature">
 
           <p class="c-cardFeature__num u-txt_xl2 u-middle u-ta_c">01</p>
-          <img src="<?php img_path(); ?>/buy/kaitori_01.svg" class="c-cardFeature__img" alt="">
+          <img src="[imgurl]/buy/kaitori_01.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold">適切なデータ消去を実施。<br>安心してお売りいただけます</h3>
-          <p class="c-cardFeature__txt u-txt_m2"><span class="c-maker">800万台を超える取り扱い実績
+          <p class="c-cardFeature__txt u-txt_m2"><span class="c-maker">数百万台を超える取り扱い実績
               <span class="c-maker__line" data-aos="slide-right" data-aos-duration="500"
                 data-aos-dalay="400"></span></span>から磨かれた適切なデータ消去を行うので、安心して端末を手放すことができます。</p>
         </div>
@@ -59,7 +56,7 @@
       <li class="p-listFeature__item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
         <div class="c-cardFeature">
           <p class="c-cardFeature__num u-txt_xl2 u-middle u-ta_c">02</p>
-          <img src="<?php img_path(); ?>/buy/kaitori_02.svg" class="c-cardFeature__img" alt="">
+          <img src="[imgurl]/buy/kaitori_02.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold">数千台単位の買取も可能です</h3>
           <p class="c-cardFeature__txt--nofit u-txt_m2">〈実績例〉<br>
             ・<span class="c-maker">iPad Air 2.1万台<span class="c-maker__line" data-aos="slide-right"
@@ -75,7 +72,7 @@
       <li class="p-listFeature__item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
         <div class="c-cardFeature">
           <p class="c-cardFeature__num u-txt_xl2 u-middle u-ta_c">03</p>
-          <img src="<?php img_path(); ?>/buy/kaitori_03.svg" class="c-cardFeature__img" alt="">
+          <img src="[imgurl]/buy/kaitori_03.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold">ご要望に合わせて<br>フレキシブルにご対応</h3>
           <p class="c-cardFeature__txt--nofit u-txt_m2">〈提供サービス例〉<br>
             ・<span class="c-maker">梱包資材のご送付<span class="c-maker__line" data-aos="slide-right" data-aos-duration="900"
@@ -107,7 +104,7 @@
           </p>
           <div class="c-buyStep__cont">
             <div class="c-buyStep__img">
-              <img src="<?php img_path(); ?>/buy/flow_ico_1.svg" alt="">
+              <img src="[imgurl]/buy/flow_ico_1.svg" alt="">
             </div>
             <p class="c-buyStep__txt u-txt_m6 u-bold">
               お問い合わせ
@@ -123,7 +120,7 @@
           </p>
           <div class="c-buyStep__cont">
             <div class="c-buyStep__img">
-              <img src="<?php img_path(); ?>/buy/flow_ico_2.svg" alt="">
+              <img src="[imgurl]/buy/flow_ico_2.svg" alt="">
             </div>
             <p class="c-buyStep__txt u-txt_m6 u-bold">
               概算お見積もり
@@ -141,7 +138,7 @@
 
           <div class="c-buyStep__cont">
             <div class="c-buyStep__img">
-              <img src="<?php img_path(); ?>/buy/flow_ico_3.svg" alt="">
+              <img src="[imgurl]/buy/flow_ico_3.svg" alt="">
             </div>
             <p class="c-buyStep__txt u-txt_m6 u-bold">
               お申し込み
@@ -158,7 +155,7 @@
 
           <div class="c-buyStep__cont">
             <div class="c-buyStep__img">
-              <img src="<?php img_path(); ?>/buy/flow_ico_4.svg" alt="">
+              <img src="[imgurl]/buy/flow_ico_4.svg" alt="">
             </div>
             <p class="c-buyStep__txt u-txt_m6 u-bold">
               検査
@@ -175,7 +172,7 @@
 
           <div class="c-buyStep__cont">
             <div class="c-buyStep__img">
-              <img src="<?php img_path(); ?>/buy/flow_ico_5.svg" alt="">
+              <img src="[imgurl]/buy/flow_ico_5.svg" alt="">
             </div>
             <p class="c-buyStep__txt u-txt_m6 u-bold">
               契約
@@ -187,12 +184,3 @@
     </ul>
   </div>
 </section>
-
-
-
-
-
-
-
-
-<?php get_footer() ?>

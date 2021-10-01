@@ -118,3 +118,10 @@ function getimgurl($atts, $content = null) {
   return get_template_directory_uri().'/assets/img';
 }
 add_shortcode('imgurl', 'getimgurl');
+
+
+// 親テーマのテーマフォルダのパスを取得するショートコード
+function homeurl($atts, $content = null) {
+  return home_url();
+}
+add_shortcode('homeurl', 'homeurl');

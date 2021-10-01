@@ -18,13 +18,14 @@ if(is_front_page()){
         <a href="" class="c-footerLink__link u-txt_m7 u-bold">販売プラン</a>
       </li>
       <li class="c-footerLink__item">
-        <a href="" class="c-footerLink__link u-txt_m7 u-bold">法人買取</a>
+        <a href="<?php home_url(); ?>/buy/" class="c-footerLink__link u-txt_m7 u-bold">法人買取</a>
       </li>
       <li class="c-footerLink__item">
         <a href="" class="c-footerLink__link u-txt_m7 u-bold">お役立ちコンテンツ</a>
       </li>
       <li class="c-footerLink__item">
-        <a href="" class="c-footerLink__link u-txt_m7 u-bold">会社概要</a>
+        <a href="https://about.belong.co.jp/about-us/" target="_blank"
+          class="c-footerLink__link u-txt_m7 u-bold">会社概要</a>
       </li>
       <li class="c-footerLink__item">
         <a href="" class="c-footerLink__link u-txt_m7 u-bold">お問い合わせ</a>
