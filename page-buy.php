@@ -185,9 +185,20 @@
 
       </li>
     </ul>
+
+    <a href="[homeurl]/contact/" class="c-convBuyPc u-bold u-txt_m2">
+      スマホ買取についてお問い合わせ
+    </a>
+
   </div>
 </section>
 
+
+<div class="c-convBuy js-contBuy">
+  <a href="[homeurl]/contact/" class="c-convBuy__inner u-bold u-txt_m2 u-bold">
+    スマホ買取についてお問い合わせ
+  </a>
+</div>
 
 
 

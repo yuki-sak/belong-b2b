@@ -1,8 +1,8 @@
 .l-buyRead {
   background: $orange;
-  padding: 8.2rem 0 5rem;
+  padding: 4.1rem 0 5rem;
   @include pc {
-    padding: 10.2rem 0 8.5rem;
+    padding: 6.4rem 0 8.5rem;
   }
   &__cont {
     margin-top: 1.5rem;
@@ -105,11 +105,40 @@
     @include sp {
       margin-right: 3.4rem;
     }
+    &--large {
+      width: 7.2rem;
+      height: 7.2rem;
+      @include pc {
+        width: 7.8rem;
+        height: 7.8rem;
+      }
+      @include sp {
+        margin-left: -0.6rem;
+        margin-right: 2.8rem;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        &.scale-large {
+          transform: scale(1.32);
+        }
+        &.scale-small {
+          transform: scale(0.9);
+        }
+      }
+    }
 
     img {
       width: 100%;
       height: 100%;
       object-fit: contain;
+      &.scale-large {
+        transform: scale(1.32);
+      }
+      &.scale-small {
+        transform: scale(0.9);
+      }
     }
   }
   &__txt {
@@ -140,6 +169,59 @@
     width: 24rem;
     @include pc {
       width: 31.6rem;
+    }
+  }
+}
+
+.c-convBuy {
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include a_tag($white, $white);
+  pointer-events: none;
+  opacity: 0;
+  &._active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  @include pc {
+    display: none;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.4rem;
+    width: 34.5rem;
+    background: $black;
+    border-radius: 9999px;
+    color: $white;
+    position: relative;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 1.4rem;
+    height: 1.1rem;
+    position: absolute;
+    right: 3rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background: url(../img/ico/arr-whitesm.png) no-repeat center center/contain;
+    transition: 0.2s all;
+  }
+
+  &:hover {
+    &:after {
+      transform: translateX(0.8rem);
     }
   }
 }

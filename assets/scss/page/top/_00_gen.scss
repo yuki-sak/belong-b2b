@@ -1,13 +1,19 @@
 .l-topMain {
   display: flex;
   flex-direction: column;
-  height: 470.7rem;
+  // Phase1
+  // height: 401rem;
+  //height: 470.7rem;
+  height: 455rem;
   background: url(../img/top/top_bg_sp.png) no-repeat center top/100% auto;
   margin-top: 4.5rem;
   @include pc {
+    // Phase1
+    // height: 338.5rem;
+    // background-size: 100% 427.2rem;
     height: 427.2rem;
-    background-image: url(../img/top/top_bg_pc.png);
     background-size: 100% 100%;
+    background-image: url(../img/top/top_bg_pc.png);
     margin-top: 7rem;
   }
 }
@@ -102,6 +108,38 @@
       margin-top: 0;
       flex: 0 0 41rem;
       width: 41rem;
+    }
+  }
+}
+
+.c-convBuyPc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  width: 40rem;
+  background: $black;
+  border-radius: 9999px;
+  color: $white;
+  margin: 10rem auto 0;
+  position: relative;
+  &:after {
+    content: "";
+    display: block;
+    width: 1.4rem;
+    height: 1.1rem;
+    position: absolute;
+    right: 3rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background: url(../img/ico/arr-whitesm.png) no-repeat center center/contain;
+    transition: 0.2s all;
+  }
+
+  &:hover {
+    &:after {
+      transform: translateX(0.8rem);
     }
   }
 }

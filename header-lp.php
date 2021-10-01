@@ -13,9 +13,6 @@
   <?php wp_head(); ?>
   <link href="<?php echo get_template_directory_uri(); ?>/assets/css2/lp.css" rel="stylesheet">
 
-  <?php if(is_page('contact')): ?>
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css2/page_contact.css" rel="stylesheet">
-  <?php endif; ?>
 
 </head>
 

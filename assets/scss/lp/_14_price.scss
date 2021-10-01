@@ -84,6 +84,9 @@
     width: 4.4rem;
     text-align: center;
     margin-right: 0.7rem;
+    @include pc {
+      margin-right: 2rem;
+    }
   }
   &__img {
     &--phone {

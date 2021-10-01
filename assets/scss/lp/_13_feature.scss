@@ -1,5 +1,5 @@
 .l-feature {
-  padding: 1.4rem 0 5.5rem;
+  padding: 5rem 0 5.5rem;
   @include pc {
     padding: 10rem 0 10.5rem;
   }
@@ -43,6 +43,12 @@
       @include pc {
         width: 2rem;
         height: 1.4rem;
+      }
+      transition: 0.2s all;
+    }
+    &:hover {
+      &:after {
+        transform: translateX(1rem) translateY(0.1rem);
       }
     }
   }

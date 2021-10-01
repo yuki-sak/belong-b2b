@@ -1,6 +1,28 @@
 .l-kv {
   padding: 1.4rem 2.1rem 4rem;
   overflow: hidden;
+  position: relative;
+  z-index: 2;
+  &:after {
+    content: "SMARTPHONE\ATABLET RENTAL\A FOR BUSINESS";
+    white-space: pre;
+    font-size: 5.7rem;
+    line-height: 6.8rem;
+    color: $white;
+    font-weight: 500;
+    @include pc {
+      font-size: 13.6rem;
+      line-height: 16.3rem;
+    }
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    bottom: 4.4rem;
+    @include pc {
+      transform: translateX(-8%);
+    }
+  }
   &__inner {
     @include pc {
       width: 115rem;
@@ -20,6 +42,14 @@
       flex: 0 0 50rem;
     }
   }
+  &__scroll {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    @include pc {
+      right: 2rem;
+    }
+  }
 }
 
 .c-kvTxt {
@@ -30,7 +60,7 @@
   }
   &__read {
     margin-top: 1.6rem;
-    border-top: 0.3rem solid $black;
+    border-top: 0.25rem solid $black;
     padding: 1.7rem 0 3.6rem;
     background: url(../img/lp/read_after_pc.png) no-repeat center bottom / 160% auto;
     @include pc {
@@ -121,5 +151,48 @@
       width: 17.8rem;
       right: -7rem;
     }
+  }
+}
+
+@keyframes sdl {
+  0% {
+    transform: scale(1, 0);
+    transform-origin: 0 0;
+  }
+  35% {
+    transform: scale(1, 1);
+    transform-origin: 0 0;
+  }
+  35.1% {
+    transform: scale(1, 1);
+    transform-origin: 0 100%;
+  }
+  70%,
+  100% {
+    transform: scale(1, 0);
+    transform-origin: 0 100%;
+  }
+}
+
+.c-scroll {
+  width: 1.4rem;
+  height: 15.3rem;
+  pointer-events: none;
+  &__txt {
+    width: 7.3rem;
+    height: 1.4rem;
+    transform: translateX(2.2rem) rotate(90deg);
+    transform-origin: top left;
+  }
+  &__line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 1px;
+    height: 8rem;
+    background: $black;
+    animation: sdl 2s ease infinite;
   }
 }

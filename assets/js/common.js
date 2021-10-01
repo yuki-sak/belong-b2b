@@ -61,11 +61,8 @@ $(function () {
 });
 
 $(function () {
-
   targetOfsY = ($('.l-topMain').offset().top);
-
   $(window).on('scroll', function () {
-
     if ($(this).scrollTop() > targetOfsY) {
       $('.l-header--top').addClass('_active');
     } else {
@@ -75,6 +72,16 @@ $(function () {
 });
 
 
+
+$(function () {
+  $(window).on('scroll', function () {
+    if ($(this).scrollTop() > 60) {
+      $('.js-contBuy').addClass('_active');
+    } else {
+      $('.js-contBuy').removeClass('_active');
+    }
+  });
+});
 
 
 

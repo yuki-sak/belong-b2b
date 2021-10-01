@@ -12,23 +12,23 @@ if(is_front_page()){
   <nav>
     <ul class="l-footer__link c-footerLink">
       <li class="c-footerLink__item">
-        <a href="" class="c-footerLink__link u-txt_m7 u-bold">リースプラン</a>
+        <a href="<?php echo home_url(); ?>/lp/" class="c-footerLink__link u-txt_m7 u-bold">リースプラン</a>
       </li>
-      <li class="c-footerLink__item">
+      <!-- <li class="c-footerLink__item">
         <a href="" class="c-footerLink__link u-txt_m7 u-bold">販売プラン</a>
-      </li>
+      </li> -->
       <li class="c-footerLink__item">
-        <a href="<?php home_url(); ?>/buy/" class="c-footerLink__link u-txt_m7 u-bold">法人買取</a>
+        <a href="<?php echo home_url(); ?>/buy/" class="c-footerLink__link u-txt_m7 u-bold">法人買取</a>
       </li>
-      <li class="c-footerLink__item">
+      <!-- <li class="c-footerLink__item">
         <a href="" class="c-footerLink__link u-txt_m7 u-bold">お役立ちコンテンツ</a>
-      </li>
+      </li> -->
       <li class="c-footerLink__item">
         <a href="https://about.belong.co.jp/about-us/" target="_blank"
           class="c-footerLink__link u-txt_m7 u-bold">会社概要</a>
       </li>
       <li class="c-footerLink__item">
-        <a href="" class="c-footerLink__link u-txt_m7 u-bold">お問い合わせ</a>
+        <a href="<?php echo home_url(); ?>/contact/" class="c-footerLink__link u-txt_m7 u-bold">お問い合わせ</a>
 
       </li>
     </ul>
@@ -47,7 +47,7 @@ if(is_front_page()){
       </a>
     </li>
   </ul>
-  <p class="l-footer__desc u-txt_s3 u-ta_c">Belongは、伊藤忠商事の100%グループ会社です。</p>
+  <p class="l-footer__desc u-txt_s3 u-ta_c"><span class="u-font-jp">Belong</span>は、伊藤忠商事の100%グループ会社です。</p>
   <div class="l-footer__data">
     <a href="" class="l-footer__link u-txt_s3 u-ta_lr">
       プライバシーポリシー

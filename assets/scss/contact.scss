@@ -1,0 +1,25 @@
+// リセット
+@import "foundation/reset";
+
+// 変数定義
+@import "foundation/variable";
+
+// ミックスイン
+@import "foundation/mixin";
+
+// ベース
+@import "foundation/base";
+
+// ベース
+@import "utility/utility";
+
+@import "layout/header";
+@import "layout/spmenu";
+// ベース
+@import "lp/**";
+
+.l-contact {
+  @include pc {
+    padding-top: 10rem;
+  }
+}

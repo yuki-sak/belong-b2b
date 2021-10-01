@@ -29,6 +29,11 @@
   }
   &--top {
     @extend %l-footer;
+    // Phase1
+    // @include pc {
+    //   background: $white;
+    // }
+    //
   }
   &--orange {
     @extend %l-footer;
@@ -56,6 +61,11 @@
   }
   &__link {
     @include a_tag($black, $black);
+    margin-right: 4rem;
+    &--last {
+      @include a_tag($black, $black);
+      margin-right: auto;
+    }
   }
   &__copy {
   }

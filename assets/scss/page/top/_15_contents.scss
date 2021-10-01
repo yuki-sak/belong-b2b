@@ -1,18 +1,27 @@
 .l-topContents {
   flex: 1 1 auto;
 
+  //Phase1
   padding-top: 4.4rem;
+  //padding-top: 12.7rem;
   @include pc {
-    padding-top: 10rem;
+    // Phase1
+    //padding-top: 10rem;
+    padding-top: 17rem;
   }
   &__ttl {
   }
   &__list {
     margin-top: 5rem;
-    height: 30rem;
+    //phase1
+    //height: 30rem;
+    height: 20rem;
+
     @include pc {
       margin-top: 7rem;
-      height: 32rem;
+      // phase1
+      // height: 32rem;
+      height: 20¥2rem;
     }
   }
   &__btn {

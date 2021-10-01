@@ -17,7 +17,7 @@
 
     <div class="l-kv__doc">
 
-      <div class="c-kvTxt">
+      <div class="c-kvTxt" data-aos="fade-up" data-aos-duration="600">
         <p class="c-kvTxt__before u-txt_m u-bold">
           伊藤忠グループBelongの
         </p>
@@ -29,18 +29,21 @@
         </p>
       </div>
       <ul class="c-kvPoint">
-        <li class="c-kvPoint__item u-txt_s u-bold u-ta_c">
+        <li class="c-kvPoint__item u-txt_s u-bold u-ta_c" data-aos="fade-up" data-aos-duration="600"
+          data-aos-delay="300">
           <span class="c-kvPoint__item__inner">
 
             保証込みでの<br>低価格<br>（月額900円～）
           </span>
         </li>
-        <li class="c-kvPoint__item u-txt_s u-bold u-ta_c">
+        <li class="c-kvPoint__item u-txt_s u-bold u-ta_c" data-aos="fade-up" data-aos-duration="600"
+          data-aos-delay="600">
           <span class="c-kvPoint__item__inner">
           </span>
           キッティング等の<br>柔軟な対応
         </li>
-        <li class="c-kvPoint__item u-txt_s u-bold u-ta_c">
+        <li class="c-kvPoint__item u-txt_s u-bold u-ta_c" data-aos="fade-up" data-aos-duration="600"
+          data-aos-delay="900">
           <span class="c-kvPoint__item__inner">
             適切な<br>データ消去 及び<br>検査の実施
           </span>
@@ -48,10 +51,20 @@
       </ul>
     </div>
     <div class="l-kv__img c-kvImg">
-      <img src="<?php img_path(); ?>/lp/kv_sp.svg" alt="" class="c-kvImg__sp">
-      <img src="<?php img_path(); ?>/lp/kv_tablet.svg" alt="" class="c-kvImg__tab">
-      <img src="<?php img_path(); ?>/lp/kv_man.svg" alt="" class="c-kvImg__man">
+      <img src="<?php img_path(); ?>/lp/kv_sp.svg" alt="" class="c-kvImg__sp" data-aos="fade-up"
+        data-aos-duration="600">
+      <img src="<?php img_path(); ?>/lp/kv_tablet.svg" alt="" class="c-kvImg__tab" data-aos="fade-up"
+        data-aos-duration="600">
+      <img src="<?php img_path(); ?>/lp/kv_man.svg" alt="" class="c-kvImg__man" data-aos="fade-up"
+        data-aos-duration="1200" data-aos-delay="600">
     </div>
+  </div>
+  <div class="l-kv__scroll c-scroll">
+    <p class="c-scroll__txt">
+      Scroll down
+    </p>
+    <p class="c-scroll__line"></p>
+
   </div>
 </section>
 
@@ -264,6 +277,30 @@
     *価格は全て税込みです。
   </p>
 
+</section>
+
+<section class="l-contact">
+  <div class="l-price__ttl c-ttl">
+    <p class="c-ttl__en u-txt_xxl u-middle">Contact</p>
+    <h2 class="c-ttl__ja u-txt_l u-bold u-ta_c">
+      お問い合わせ
+      <span class="c-ttl__line"></span>
+    </h2>
+  </div>
+  <p class="l-contact__txt u-txt_m u-ta_c">
+    まずはお気軽にお問い合わせください
+  </p>
+  <!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+  <script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "5705329",
+    formId: "4fd85c31-3158-4ba9-8049-64891186fe1a"
+  });
+  </script>
 </section>
 
 

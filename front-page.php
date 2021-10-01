@@ -7,9 +7,6 @@
 
 
 
-
-
-
 <div class="c-topKv">
   <h1 class="c-topKv__ttl u-h1_1 u-bold u-ta_c" data-aos-duration="500" data-aos="fade-up" data-aos-delay="200">
     Belongの<br class="u-sp">法人向けサービス
@@ -26,14 +23,17 @@
 <nav class="c-topNav">
   <ul class="c-topNavList">
     <li class="c-topNavList__item"><a href="#" class="c-topNavList__link u-txt_m2 u-bold">リースプラン</a></li>
+    <!--
     <li class="c-topNavList__item"><a href="#" class="c-topNavList__link u-txt_m2 u-bold">販売プラン</a></li>
-    <li class="c-topNavList__item"><a href="<?php home_url(); ?>/buy/"
-        class="c-topNavList__link u-txt_m2 u-bold">法人買取</a></li>
+-->
+    <li class="c-topNavList__item"><a href="[homeurl]/buy/" class="c-topNavList__link u-txt_m2 u-bold">法人買取</a></li>
+    <!--
     <li class="c-topNavList__item"><a href="#" class="c-topNavList__link u-txt_m2 u-bold">お役立ちコンテンツ</a></li>
-    <li class="c-topNavList__item"><a href="https://about.belong.co.jp/about-us/" target="_blank"
+-->
+    <li class="c-topNavList__item"><a href="https://about.belong.co.jp/about-us/" target="_blank" rel="noopener"
         class="c-topNavList__link u-txt_m2 u-bold">会社概要</a></li>
   </ul>
-  <a href="" class="c-topNavConv u-txt_m2 u-bold">
+  <a href="<?php echo home_url(); ?>/contact/" class="c-topNavConv u-txt_m2 u-bold">
     お問い合わせ
   </a>
 </nav>
@@ -83,13 +83,13 @@
                   iPhone 7
                 </p>
                 <p class="c-rentalItem__docTxt u-txt_s">
-                  機種の説明。この文章はダミーです。文字の大きさ、量、字間行間等の確認のために
+                  2016年9月発売<br>Felica搭載でタッチ決済対応、Touch IDでの指紋認証モデル。
                 </p>
-                <p class="c-rentalItem__docLink">
+                <!-- <p class="c-rentalItem__docLink">
                   <a class="c-rentalItem__docLinkTxt u-txt_s u-bold">
                     詳細はこちら
                   </a>
-                </p>
+                </p> -->
               </div>
             </li>
             <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
@@ -104,13 +104,13 @@
                   iPhone 8
                 </p>
                 <p class="c-rentalItem__docTxt u-txt_s">
-                  機種の説明。この文章はダミーです。文字の大きさ、量、字間行間等の確認のために
+                  2017年9月発売<br>Felica搭載でタッチ決済対応、Touch IDでの指紋認証モデル。高速充電、ワイヤレス充電に対応
                 </p>
-                <p class="c-rentalItem__docLink">
+                <!-- <p class="c-rentalItem__docLink">
                   <a class="c-rentalItem__docLinkTxt u-txt_s u-bold">
                     詳細はこちら
                   </a>
-                </p>
+                </p> -->
               </div>
             </li>
             <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
@@ -125,19 +125,19 @@
                   iPhone X
                 </p>
                 <p class="c-rentalItem__docTxt u-txt_s">
-                  機種の説明。この文章はダミーです。文字の大きさ、量、字間行間等の確認のために
+                  2017年11月発売<br>Felica搭載でタッチ決済対応、Face IDの顔認証モデル。
                 </p>
-                <p class="c-rentalItem__docLink">
+                <!-- <p class="c-rentalItem__docLink">
                   <a class="c-rentalItem__docLinkTxt u-txt_s u-bold">
                     詳細はこちら
                   </a>
-                </p>
+                </p> -->
               </div>
             </li>
           </ul>
-          <a href="" class="p-rental__more c-rentalMore u-txt_m u-bold" data-aos="fade-up" data-aos-duration="600">
+          <!-- <a href="" class="p-rental__more c-rentalMore u-txt_m u-bold" data-aos="fade-up" data-aos-duration="600">
             スマホレンタルを見る
-          </a>
+          </a> -->
         </div>
       </div>
       <div class="p-leasePlan__cont">
@@ -158,13 +158,14 @@
                   iPad Air 2
                 </p>
                 <p class="c-rentalItem__docTxt u-txt_s">
-                  機種の説明。この文章はダミーです。文字の大きさ、量、字間行間等の確認のために
+                  2014年10月発売<br>Apple A8X搭載。
+                  厚み6.1mmの薄型、反射防止コーティングされたディスプレイを搭載。
                 </p>
-                <p class="c-rentalItem__docLink">
+                <!-- <p class="c-rentalItem__docLink">
                   <a class="c-rentalItem__docLinkTxt u-txt_s u-bold">
                     詳細はこちら
                   </a>
-                </p>
+                </p> -->
               </div>
             </li>
             <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
@@ -179,13 +180,14 @@
                   iPad 第6世代
                 </p>
                 <p class="c-rentalItem__docTxt u-txt_s">
-                  機種の説明。この文章はダミーです。文字の大きさ、量、字間行間等の確認のために
+                  2018年3月発売モデル<br>Apple A10 Fusion搭載。
+                  Apple Pencil（第1世代）に対応
                 </p>
-                <p class="c-rentalItem__docLink">
+                <!-- <p class="c-rentalItem__docLink">
                   <a class="c-rentalItem__docLinkTxt u-txt_s u-bold">
                     詳細はこちら
                   </a>
-                </p>
+                </p> -->
               </div>
             </li>
             <li class="c-rentalItem" data-aos="fade-up" data-aos-duration="600">
@@ -200,7 +202,7 @@
                   iPad 第5世代
                 </p>
                 <p class="c-rentalItem__docTxt u-txt_s">
-                  機種の説明。この文章はダミーです。文字の大きさ、量、字間行間等の確認のために
+                  2017年3月発売モデル<br>Apple A9搭載。
                 </p>
                 <p class="c-rentalItem__docLink">
                   <a class="c-rentalItem__docLinkTxt u-txt_s u-bold">
@@ -210,9 +212,9 @@
               </div>
             </li>
           </ul>
-          <a href="" class="p-rental__more c-rentalMore u-txt_m u-bold" data-aos="fade-up" data-aos-duration="600">
+          <!-- <a href="" class="p-rental__more c-rentalMore u-txt_m u-bold" data-aos="fade-up" data-aos-duration="600">
             タブレットレンタルを見る
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
@@ -243,15 +245,15 @@
           </p>
         </div>
 
-        <a href="" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
+        <!-- <a href="" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
           Belong One 販売プラン を見る
-        </a>
+        </a> -->
       </div>
       <img src="<?php img_path(); ?>/common/ill-sell_main.svg" class="c-planGen__img" alt="" data-aos="fade-up"
         data-aos-duration="600">
-      <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
+      <!-- <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
         Belong One 販売プラン を見る
-      </a>
+      </a> -->
     </div>
   </section>
   <!-- l-topSalePlan -->
@@ -277,20 +279,22 @@
             本サービスは東京センチュリー株式会社と、株式会社Belongで提携をしてご提供している中古スマホ・タブレットの保証つきリースサービスです。
           </p>
         </div>
-        <a href="" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
+        <a href="../belong_dv/buy/" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up"
+          data-aos-duration="600">
           Belong 買取 for Biz を見る
         </a>
       </div>
       <img src="<?php img_path(); ?>/common/ill-buy_main.svg" class="c-planGen__img" alt="" data-aos="fade-up"
         data-aos-duration="600">
     </div>
-    <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
+    <a href="../belong_dv/buy/" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up"
+      data-aos-duration="600">
       Belong 買取 for Biz を見る
     </a>
   </section>
   <!-- l-topBuyPlan -->
 
-  <section class="l-topContents l-cs_pc l-cs_sp">
+  <!-- <section class="l-topContents l-cs_pc l-cs_sp">
     <div class="l-topContents__ttl c-topContentsTtl">
       <img src="<?php img_path(); ?>/ico/ico-write_l.png" class="c-topContentsTtl__icon" style="">
       <h2 class="c-topContentsTtl__ttl" data-aos="fade-up" data-aos-duration="600">
@@ -303,9 +307,8 @@
     <div class="l-topContents__list jsSliderSp_parent">
       <ul class="c-topContentsList jsSliderSp">
         <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600">
-          <!-- test -->
           <a href="" class="c-cardTopContents">
-            <img src="https://placehold.jp/290x207.png" alt="" class="c-cardTopContents__img">
+            <img src="<?php img_path(); ?>/common/iphonese.png" alt="" class="c-cardTopContents__img">
             <p class="c-cardTopContents__ttl u-txt_m8 u-bold">iPhone SE（第2世代）のバッテリー容量を他モデルと比較！</p>
             <p class="c-cardTopContents__linkw">
               <span href="" class="c-cardTopContents__link u-txt_s u-bold">
@@ -313,11 +316,10 @@
               </span>
             </p>
           </a>
-          <!-- test -->
         </li>
         <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
           <a href="" class="c-cardTopContents">
-            <img src="https://placehold.jp/290x207.png" alt="" class="c-cardTopContents__img">
+            <img src="<?php img_path(); ?>/common/iphonese2.png" alt="" class="c-cardTopContents__img">
             <p class="c-cardTopContents__ttl u-txt_m8 u-bold">iPhone SE（第2世代）のバッテリー容量を他モデルと比較！</p>
             <p class="c-cardTopContents__linkw">
               <span href="" class="c-cardTopContents__link u-txt_s u-bold">
@@ -328,7 +330,7 @@
         </li>
         <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
           <a href="" class="c-cardTopContents">
-            <img src="https://placehold.jp/290x207.png" alt="" class="c-cardTopContents__img">
+            <img src="<?php img_path(); ?>/common/tablet.png" alt="" class="c-cardTopContents__img">
             <p class="c-cardTopContents__ttl u-txt_m8 u-bold">iPhone SE（第2世代）のバッテリー容量を他モデルと比較！</p>
             <p class="c-cardTopContents__linkw">
               <span href="" class="c-cardTopContents__link u-txt_s u-bold">
@@ -346,11 +348,55 @@
     <a href="" class="l-topContents__btn c-btn_1--border u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
       お役立ちコンテンツを見る
     </a>
+  </section> -->
+  <section class="l-topContents l-cs_pc l-cs_sp">
+    <div class="l-topContents__ttl c-topContentsTtl">
+      <img src="<?php img_path(); ?>/ico/ico-write_l.png" class="c-topContentsTtl__icon" style="">
+      <h2 class="c-topContentsTtl__ttl" data-aos="fade-up" data-aos-duration="600">
+        <img src="<?php img_path(); ?>/common/logo-belong.png" class="c-topContentsTtl__logo">
+        <span class="c-topContentsTtl__txt u-txt_m6 u-bold">
+          お役立ちコンテンツ
+        </span>
+      </h2>
+    </div>
+    <div class="l-topContents__list jsSliderSp_parent">
+      <ul class="c-topContentsList jsSliderSp">
+        <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600">
+          <a href="" class="c-cardTopContents">
+            <img src="<?php img_path(); ?>/dummy/dummy.png" alt="" class="c-cardTopContents__img">
+            <p class="c-cardTopContents__ttl u-txt_m8 u-bold">Comming Soon</p>
+
+          </a>
+        </li>
+        <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+          <a href="" class="c-cardTopContents">
+            <img src="<?php img_path(); ?>/dummy/dummy.png" alt="" class="c-cardTopContents__img">
+            <p class="c-cardTopContents__ttl u-txt_m8 u-bold">Comming Soon</p>
+
+          </a>
+        </li>
+        <li class="c-topContentsList__item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+          <a href="" class="c-cardTopContents">
+            <img src="<?php img_path(); ?>/dummy/dummy.png" alt="" class="c-cardTopContents__img">
+            <p class="c-cardTopContents__ttl u-txt_m8 u-bold">Comming Soon</p>
+
+          </a>
+        </li>
+      </ul>
+      <div class="jsSliderSpCt" data-aos="fade" data-aos-duration="600" data-aos-delay="600">
+        <div class="jsSliderSpCt__prevArr"></div>
+        <div class="jsSliderSpCt__nextArr"></div>
+      </div>
+    </div>
+    <a href="" class="l-topContents__btn c-btn_1--border u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
+      お役立ちコンテンツを見る
+    </a>
   </section>
+
+
   <!-- l-topContents -->
 
 </main>
-
 
 
 
