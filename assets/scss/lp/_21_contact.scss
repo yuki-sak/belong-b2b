@@ -161,3 +161,12 @@ label.hs-main-font-element {
   margin-top: 20px;
   font-weight: bold;
 }
+
+.hbspt-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .submitted-message {
+  }
+}

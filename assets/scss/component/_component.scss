@@ -76,6 +76,13 @@
       background: url(../img/ico/arr-blue.png) no-repeat center center/contain;
     }
   }
+  &--inactive {
+    background: $gr_ad;
+    @extend %c-btn_1;
+    color: $white;
+    pointer-events: none;
+    cursor: auto;
+  }
 }
 
 .p-leasePlan {
@@ -136,4 +143,31 @@
       transition-duration: 0s !important;
     }
   }
+}
+
+/* アニメーション前のスタイル */
+.js-marker {
+  display: inline-block;
+  position: relative;
+  background-image: linear-gradient(
+    90deg,
+    $yellow,
+    $yellow
+  ); /* 単色の場合は同じ色、グラデーションさせる場合は別々の色 */
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 0 0.8rem; /* '30%'の部分にマーカーの太さを記入 */
+  transition: background-size 0.5s ease-in-out; /* マーカーを引く速度を調整 */
+  //font-weight: bold; /* ついでに太字にしたい場合 */
+  &._d1 {
+    transition-delay: 0.5s;
+  }
+  &._d2 {
+    transition-delay: 1s;
+  }
+}
+
+/* アニメーション発火時 */
+.js-marker.inview {
+  background-size: 100% 0.8rem; /* '30%'の部分は上で設定した太さに合わせる */
 }

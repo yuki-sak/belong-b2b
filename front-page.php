@@ -248,12 +248,18 @@
         <!-- <a href="" class="c-planGen__btn--pc c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
           Belong One 販売プラン を見る
         </a> -->
+        <div class="c-planGen__btn--pc c-btn_1--inactive u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
+          Coming soon
+        </div>
       </div>
       <img src="<?php img_path(); ?>/common/ill-sell_main.svg" class="c-planGen__img" alt="" data-aos="fade-up"
         data-aos-duration="600">
       <!-- <a href="" class="c-planGen__btn--sp c-btn_1--bg u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
         Belong One 販売プラン を見る
       </a> -->
+      <div class="c-planGen__btn--sp c-btn_1--inactive u-txt_m4 u-bold" data-aos="fade-up" data-aos-duration="600">
+        Coming soon
+      </div>
     </div>
   </section>
   <!-- l-topSalePlan -->

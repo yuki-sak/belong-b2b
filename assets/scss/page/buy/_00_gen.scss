@@ -30,7 +30,7 @@
   position: relative;
   @include sp {
     margin: 0 auto;
-    padding: 0.1rem 2.8rem 0;
+    padding: 0.1rem 3.8rem 0;
   }
   @include pc {
     width: 21.8rem;
@@ -48,7 +48,7 @@
     padding: 0.1rem 2.8rem 0;
     @include sp {
       margin: 0 auto;
-      padding: 0.1rem 2.8rem 0;
+      padding: 0.1rem 3.8rem 0;
     }
     @include pc {
       width: 20.3rem;
@@ -93,6 +93,9 @@
   &__cont {
     display: flex;
     align-items: center;
+    @include sp {
+      padding-top: 0.6rem;
+    }
     @include pc {
       flex-direction: column;
       justify-content: center;
@@ -100,14 +103,18 @@
     }
   }
   &__img {
-    width: 6rem;
-    height: 6rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    @include pc {
+      width: 6rem;
+      height: 6rem;
+    }
     @include sp {
       margin-right: 3.4rem;
     }
     &--large {
-      width: 7.2rem;
-      height: 7.2rem;
+      width: 5.8rem;
+      height: 5.8rem;
       @include pc {
         width: 7.8rem;
         height: 7.8rem;

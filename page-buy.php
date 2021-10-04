@@ -50,9 +50,8 @@
           <p class="c-cardFeature__num u-txt_xl2 u-middle u-ta_c">01</p>
           <img src="<?php img_path(); ?>/buy/kaitori_01.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold">適切なデータ消去を実施。<br>安心してお売りいただけます</h3>
-          <p class="c-cardFeature__txt u-txt_m2"><span class="c-maker">800万台を超える取り扱い実績
-              <span class="c-maker__line" data-aos="slide-right" data-aos-duration="500"
-                data-aos-dalay="400"></span></span>から磨かれた適切なデータ消去を行うので、安心して端末を手放すことができます。</p>
+          <p class="c-cardFeature__txt u-txt_m2"><span
+              class="js-marker">800万台を超える取り扱い実績</span>から磨かれた適切なデータ消去を行うので、安心して端末を手放すことができます。</p>
         </div>
       </li>
 
@@ -62,12 +61,9 @@
           <img src="<?php img_path(); ?>/buy/kaitori_02.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold">数千台単位の買取も可能です</h3>
           <p class="c-cardFeature__txt--nofit u-txt_m2">〈実績例〉<br>
-            ・<span class="c-maker">iPad Air 2.1万台<span class="c-maker__line" data-aos="slide-right"
-                data-aos-duration="500" data-aos-dalay="600"></span></span><br>
-            ・<span class="c-maker">iPhone7 3,000台<span class="c-maker__line" data-aos="slide-right"
-                data-aos-duration="500" data-aos-dalay="800"></span></span><br>
-            ・<span class="c-maker">Android複数機種混合 2,000台<span class="c-maker__line" data-aos="slide-right"
-                data-aos-duration="500" data-aos-dalay="1000"></span></span>
+            ・<span class="js-marker">iPad Air 2.1万台</span><br>
+            ・<span class="js-marker _d1">iPhone7 3,000台</span><br>
+            ・<span class="js-marker _d2">Android複数機種混合 2,000台</span>
           </p>
         </div>
       </li>
@@ -78,10 +74,8 @@
           <img src="<?php img_path(); ?>/buy/kaitori_03.svg" class="c-cardFeature__img" alt="">
           <h3 class="c-cardFeature__ttl u-txt_l4 u-bold">ご要望に合わせて<br>フレキシブルにご対応</h3>
           <p class="c-cardFeature__txt--nofit u-txt_m2">〈提供サービス例〉<br>
-            ・<span class="c-maker">梱包資材のご送付<span class="c-maker__line" data-aos="slide-right" data-aos-duration="900"
-                data-aos-dalay="1200"></span></span><br>
-            ・<span class="c-maker">iCloudロック解除の代行<span class="c-maker__line" data-aos="slide-right"
-                data-aos-duration="500" data-aos-dalay="1400"></span></span>
+            ・<span class="js-marker">梱包資材のご送付</span><br>
+            ・<span class="js-marker _d1">iCloudロック解除の代行</span>
           </p>
         </div>
       </li>
@@ -106,7 +100,7 @@
             <span class="c-buyStep__numTxt u-txt_l5 u-middle">01</span>
           </p>
           <div class="c-buyStep__cont">
-            <div class="c-buyStep__img">
+            <div class="c-buyStep__img--large">
               <img src="<?php img_path(); ?>/buy/flow_ico_1.svg" alt="">
             </div>
             <p class="c-buyStep__txt u-txt_m6 u-bold">

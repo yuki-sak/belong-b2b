@@ -36,14 +36,14 @@ if(is_front_page()){
 
   <ul class="l-footer__logo c-foonterLogo">
     <li class="c-foonterLogo__item">
-      <a href="" class="c-foonterLogo__link--belong">
+      <a href="https://about.belong.co.jp" class="c-foonterLogo__link--belong">
 
-        <img src="<?php img_path(); ?>/common/logo-belong.png" class="c-foonterLogo__img" alt="belong ロゴ" class="">
+        <img src="<?php img_path(); ?>/common/logo-belong.png" class="c-foonterLogo__img" alt="belong" class="">
       </a>
     </li>
     <li class="c-foonterLogo__item">
-      <a href="" class="c-foonterLogo__link--itochu">
-        <img src="<?php img_path(); ?>/common/logo-itochu.svg" class="c-foonterLogo__img" alt="itochu ロゴ" class="">
+      <a href="https://www.itochu.co.jp" class="c-foonterLogo__link--itochu">
+        <img src="<?php img_path(); ?>/common/logo-itochu.svg" class="c-foonterLogo__img" alt="伊藤忠商事" class="">
       </a>
     </li>
   </ul>
@@ -53,7 +53,7 @@ if(is_front_page()){
       プライバシーポリシー
     </a>
     <p class="l-footer__copy u-txt_s3 u-ta_lr">
-      Copyright 2020 Belong Inc. All Rights Reserved.
+      Copyright 2021 Belong Inc. All Rights Reserved.
     </p>
   </div>
 </footer>
@@ -61,6 +61,7 @@ if(is_front_page()){
 
 <?php wp_footer(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/lib/slick/slick.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/intersection-observer.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/common.js"></script>
 </body>
 

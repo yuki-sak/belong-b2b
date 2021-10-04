@@ -125,3 +125,9 @@ function homeurl($atts, $content = null) {
   return home_url();
 }
 add_shortcode('homeurl', 'homeurl');
+
+add_filter( 'wp_kses_allowed_html', 'my_wp_kses_allowed_html', 10, 2 );
+function my_wp_kses_allowed_html( $tags, $context ) {
+	$tags['img']['srcset'] = true;
+	return $tags;
+}
