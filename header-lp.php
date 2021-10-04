@@ -11,7 +11,7 @@
   <title><?php wp_title('|', true, 'right');bloginfo('name');?></title>
   <?php /* get_template_part('lib/breadcrumb-jsonld');// JSONLDのパンくずを出力 */ ?>
   <?php wp_head(); ?>
-  <link href="<?php echo get_template_directory_uri(); ?>/assets/css2/lp.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/assets/css/lp.css" rel="stylesheet">
 
 
 </head>

@@ -17,7 +17,7 @@ const mmq = require('gulp-merge-media-queries');
 const originPath = 'assets/';
 
 // path
-const cssDir = originPath + 'css2';
+const cssDir = originPath + 'css';
 const scssDir = originPath + 'scss';
 const cssFile = originPath + 'css/**/*.css';
 const scssFile = originPath + 'scss/**/*.scss';
